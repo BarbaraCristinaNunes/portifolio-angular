@@ -1,0 +1,45 @@
+#top-container{
+    height: 250px;
+    width: 100%;
+    background-color: aqua;
+    position: absolute;
+    z-index: 1;
+}
+
+.container{
+    right: 115px;
+    top: 100px;
+    position: absolute;
+    z-index: 2;
+}
+
+#profile-img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+}
+
+#description{
+    width: 350px;
+    border-top: solid black;
+    border-bottom: solid black;
+    background-color: white;
+}
+#person-information{
+    height: 300px;
+    margin-left: 150px;
+}
+#biologist{
+    margin: 5px;
+    float: right;
+}
+
+#web-developer{
+    margin: 5px;
+    float: right;
+}
+#me{
+    font-size: x-large;
+}
