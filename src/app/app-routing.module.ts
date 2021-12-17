@@ -1,4 +1,4 @@
-import { Component, NgModule } from '@angular/core';
+import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { BiologistComponent } from './pages/biologist/biologist.component';
 import { WebDeveloperComponent } from './pages/webDeveloper/web-developer.component';
