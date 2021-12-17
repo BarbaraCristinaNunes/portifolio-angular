@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -5,7 +6,12 @@ import { Component, OnInit } from '@angular/core';
 })
 
 export class BiologistComponent implements OnInit {
-    constructor() { }
+    constructor(private httpclient: HttpClient) { }
 
-    ngOnInit() { }
+    datajason : any;
+
+    ngOnInit() {
+        this.httpclient.get('assets/workExperiences.json').subscribe((data:any) => {
+        this.datajason = data?.workExperiences?.biologist;
+    }) }
 }
