@@ -1,0 +1,295 @@
+{
+    "workExperiences":
+        {
+            "biologist":
+                {
+                    "profileImg":{            
+                        "img": "../assets/img/profile/biolgist.jpg"
+                    },
+                    "experiences":{
+        
+                    },
+                    "skils":[
+                        {
+                            "languages":[
+                                {
+                                    "portugues": "Native",
+                                    "english": "Intermediate level",
+                                    "spanish": "basic",
+                                    "dutch": "basic"
+                                }
+                            ]                  
+                        }
+                    ],
+                    "academicEducation":[
+                        {
+                            "studyArea": "Biology",
+                            "institution": "Centro Universitário UNA",
+                            "start": 2011,
+                            "end": 2014,
+                            "thesis": "RIQUEZA DE GALHAS INDUZIDAS POR INSETOS AO LONGO DE UM GRADIENTE ALTITUDINAL NA SERRA DO CIPÓ, MG, BRASIL",
+                            "link": "",
+                            "institutionLink": "",
+                            "degree": "Bachelor"
+                        },                        
+                        {
+                            "studyArea": "Ecology, Conservation and Wildlife Management",
+                            "institution": "Federal University of Minas Gerais",
+                            "start": 2017,
+                            "end": 2019,
+                            "thesis": "CONSERVAÇÃO DE ESPÉCIES DA FLORA BRASILEIRA AMEAÇADAS DE EXTINÇÃO: ESTUDO DE CASO SOBRE CACTÁCEAS BRASILEIRAS",
+                            "link": "https://repositorio.ufmg.br/bitstream/1843/33844/1/PPGEcologiaConsManVidaSilvestre_BarbaraCristinaNunes_DissertacaoMESTRADO.pdf",
+                            "institutionLink": "",
+                            "degree": "Master"
+                        },                                
+                        {
+                            "studyArea": "Conservation Biology",
+                            "institution": "Centro Universitário UNA",
+                            "start": 2015,
+                            "end": 2016,
+                            "thesis": "USO DA FLORA COMO POTENCIAL INDICADOR BIÓTICO DA EFETIVIDADE DO PARNA SERRA DO CIPÓ, MINAS GERAIS",
+                            "link": "",
+                            "institutionLink": "",
+                            "degree": "specializtion"
+                        }
+                    ],
+                    "publications":
+                        {
+                            "abstracts":[
+                                {
+                                    "title": "CARACTERIZAÇÃO DAS GALHAS INDUZIDAS POR INSETOS AO LONGO DE UM GRADIENTE ALTITUDINAL NA SERRA DO CIPÓ, MG, BRASIL",
+                                    "year": "2015",
+                                    "event": "XII Congresso de Ecologia do Brasil",
+                                    "institution": "Society of Ecology of Brazil",
+                                    "link": "http://www.seb-ecologia.org.br/revistas/indexar/anais/xiiceb/pdf/391.pdf",
+                                    "institutionLink": ""
+                                },
+                                {
+                                    "title": "INFLUÊNCIA DA RIQUEZA DE PLANTAS E DO GRADIENTE ALTITUDINAL NA RIQUEZA DE INSETOS GALHADORES EM CAMPO RUPESTRE DA SERRA DO CIPÓ, MINAS GERAIS",
+                                    "year": "2015",
+                                    "event": "XII Congresso de Ecologia do Brasil",
+                                    "institution": "Society of Ecology of Brazil",
+                                    "link": "http://www.seb-ecologia.org.br/revistas/indexar/anais/xiiceb/pdf/776.pdf",
+                                    "institutionLink": ""
+                                },
+                                {
+                                    "title": "CONNECTIVITY AND SIZE DO NOT AFFECT INSECTS IN FOREST FRAGMENT ISLAND",
+                                    "year": "2014",
+                                    "event": "International Symposium on Ecology and Conservation",
+                                    "institutionLink": ""
+                                }
+                            ],
+                            "papers":[
+                                {
+                                    "title": "CO2 Fertilizer Effect on Growth, Polyphenols, and Endophytes in Two Baccharis Species",
+                                    "authors": "OKI, YUMI ; ARANTES-GARCIA, LUCAS ; COSTA, MARINA BATISTA MORAIS ; NUNES, BÁRBARA CRISTINA ; SILVEIRA, BÁRBARA RÚBIA ; GÉLVEZ-ZÚÑIGA, IRENE ; FRANCO, AUGUSTO ; FERNANDES, GERALDO WILSON",
+                                    "paper": "BRAZILIAN ARCHIVES OF BIOLOGY AND TECHNOLOGY",
+                                    "year": "2020",
+                                    "extraInfo": "v. 63, p. 2-10",
+                                    "link": "https://www.scielo.br/j/babt/a/wBzqBNsXGk9MHhFgmBLzfps/?lang=en"
+                                },
+                                {
+                                    "title": "Educação Ambiental: sensibilização sobre a importância da conservação de espécies do Cerrado",
+                                    "authors": "GOMES, M. R. ; NOGUEIRA, J. M. ; AMORIM, S. L. A. ; RODRIGUES, I. P. S. ; MARQUES, P. H. D. ; XAVIER, E. R. S. ; NUNES, B. ; RODRIGUES, R. N. ; PINTO, L. C. L. ; DRUMOND, M. A",
+                                    "paper": "MG. BIOTA",
+                                    "year": "2018",
+                                    "extraInfo": "v. 11, p. 04-19",
+                                    "link": "https://www.sciencedirect.com/science/article/abs/pii/S0367253020302577?via%3Dihub"
+                                }
+                            ]
+                        },
+                    "projects":[
+                        {
+                            "title": "Bioindicadores para avaliação do efeito de mudanças climáticas globais em montanhas tropicais",
+                            "subproject": "",
+                            "start": "2014",
+                            "end": "2016"
+        
+                        },
+                        {
+                            "title": "Geografia da biodiversidade, funcionamento e sustentabilidade no cerrado? Rede ComCerrado/ Título da proposta do projeto associado: Ecossistemas extremos do cerrado: a biodiversidade e funcionalidade nos campos rupestres",
+                            "subproject": "",
+                            "start": "2016",
+                            "end": "2017"
+                        }
+                    ]
+                    
+                },
+            "webDeveloper":
+                {
+                    "profileImg":{            
+                        "img": "../assets/img/profile/biolgist.jpg"
+                    },
+                    "experiences":{
+        
+                    },
+                    "skils":[
+                        {
+                            "languages":[
+                                {
+                                    "portugues": "Native",
+                                    "english": "Intermediate level",
+                                    "spanish": "basic",
+                                    "dutch": "basic"
+                                }
+                            ],
+                            "programingLanguages":[
+                                {
+                                    "html": "",
+                                    "javascript": "",
+                                    "css": "",
+                                    "php": ""
+                                }
+                            ],
+                            "frameworks":[
+                                {
+                                    "angular": ""
+                                }
+                            ],
+                            "libraries":[
+                                {
+                                    "bootstrap": ""
+                                }
+                            ],
+                            "designLanguages":[
+                                {
+                                    "materialDesign": ""
+                                }
+                            ]                  
+                        }
+                    ],
+                    "academicEducation":{
+                        "bachelor": [
+                            {
+                                "studyArea": "",
+                                "institution": "",
+                                "start": "",
+                                "end": "",
+                                "thesis": "",
+                                "thesisLink": "",
+                                "institutionLink": ""
+                            }
+                        ],
+                        "posgraduaction":[
+                            {
+                                "master":[
+                                    {
+                                        "studyArea": "",
+                                        "institution": "",
+                                        "start": "",
+                                        "end": "",
+                                        "thesis": "",
+                                        "thesisLink": "",
+                                        "institutionLink": ""
+                                    }
+                                ],
+                                "specializtion": [
+                                    {
+                                        "studyArea": "",
+                                        "institution": "",
+                                        "start": "",
+                                        "end": "",
+                                        "thesis": "",
+                                        "thesisLink": "",
+                                        "institutionLink": ""
+                                    }
+                                ],
+                                "additional":[
+                                    {
+                                        "studyArea": "Web Development",
+                                        "institution": "Becode",
+                                        "start": "October-2021",
+                                        "end": "April-2022",
+                                        "institutionLink": "https://becode.org/"
+                                    }
+                                ]
+                            }
+                        ]
+        
+                    },
+                    "publications":[
+                        {
+                            "abstracts":[
+                                {
+                                    "title": "",
+                                    "year": "",
+                                    "event": "",
+                                    "institution": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "year": "",
+                                    "event": "",
+                                    "institution": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "year": "",
+                                    "event": ""
+                                }
+                            ],
+                            "papers":[
+                                {
+                                    "title": "",
+                                    "authors": "",
+                                    "paper": "",
+                                    "year": "",
+                                    "extraInfo": "",
+                                    "link": ""
+                                },
+                                {
+                                    "title": "",
+                                    "authors": "",
+                                    "paper": "",
+                                    "year": "",
+                                    "extraInfo": "",
+                                    "link": ""
+                                }
+                            ]
+                        }
+                    ],
+                    "projects":[
+                        {
+                            "title": "",
+                            "objective": "",
+                            "start": "",
+                            "end": "",
+                            "link": ""
+                        },
+                        {
+                            "title": "",
+                            "objective": "",
+                            "start": "",
+                            "end": "",
+                            "link": ""
+                        }
+                    ]
+                },
+            "contact":[
+                {
+                    "linkedin": "https://www.linkedin.com/in/b%C3%A1rbara-cristina-nunes-40b57063/"
+                },
+                {
+                    "facebook": "https://www.facebook.com/barbara.nunes.7505/"
+                },
+                {
+                    "instagram": "babi.cnues"
+                },
+                {
+                    "github": "https://github.com/BarbaraCristinaNunes"
+                },
+                {
+                    "biologistMail": "barbara.n.bio@gmail.com"
+                },
+                {
+                    "webDeveloperMain": "nunes.barbaracc@gmail.com"
+                },
+                {
+                    "phone": "+32456132679"
+                }
+            ]
+        }
+    
+}
