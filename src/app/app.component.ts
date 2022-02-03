@@ -9,7 +9,7 @@ export class AppComponent {
   title = 'portifolio2';
 
   myTitle = "Biologist and Web Developer";
-  aboutMe = ""; 
+  aboutMe = "I am a person focused on resolving real problems. Therefore, during my master's I decided to work with applied search in which I show endangered cactus distribution in Brazil and propose some solutions to strengthen conservation public policy applied on these plants cases. I am also able to apply my previous experiences to build applications that can help biologists in the future. During BeCode training I created a virtual library, inspired by GBIF, where searchers can keep biodiversity data totally privity."; 
 
   biologistInformation()
   {
