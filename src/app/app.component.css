@@ -14,11 +14,25 @@
 }
 
 #profile-img{
-    width: 350px;
-    height: 350px;
+    width: 366px;
+    height: 353px;
     border-radius: 50%;
     position: absolute;
     z-index: 2;
+}
+
+#name{
+   padding-top: 10px;
+}
+
+#title{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#me{
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 #description{
@@ -41,5 +55,5 @@
     float: right;
 }
 #me{
-    font-size: x-large;
+    font-size: large;
 }
