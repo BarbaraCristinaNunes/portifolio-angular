@@ -10,8 +10,9 @@ export class BiologistComponent implements OnInit {
 
     datajason : any;
 
-    ngOnInit() {
+    ngOnInit() { 
         this.httpclient.get('assets/workExperiences.json').subscribe((data:any) => {
-        this.datajason = data?.workExperiences?.biologist;
-    }) }
+            this.datajason = data?.workExperiences?.biologist;
+        })
+    }
 }
