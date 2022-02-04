@@ -7,14 +7,14 @@
       <div class="col" id="description">
         <div id="person-information" style="border: solid blueviolet;">
           <h1 class="text-center" id="name">Bárbara Nunes</h1>
-          <h4 class="text-center" id="title">{{myTitle}}</h4>
+          <h4 class="text-center" id="title">{{information[activeProfile]?.myTitle}}</h4>
           <p id="me">
-            {{aboutMe}}
+            {{information[activeProfile]?.aboutMe}}
           </p>
         </div>        
         <div id="read-more">
-          <button id="biologist" mat-raised-button color="primary" [routerLink]="['/Biologist']" routerLinkActive="router-link-active" (click)="biologistInformation()">Biologist</button>
-          <button id="web-developer" mat-raised-button color="primary" [routerLink]="['/Web-Developer']" routerLinkActive="router-link-active" (click)="webDeveloperInformation()">
+          <button id="biologist" mat-raised-button color="primary" routerLinkActive="router-link-active" (click)="changeInformation('biologist', '/Biologist')">Biologist</button>
+          <button id="web-developer" mat-raised-button color="primary" routerLinkActive="router-link-active" (click)="changeInformation('developer', '/Web-Developer')">
             Web Developer
           </button>
         </div>
