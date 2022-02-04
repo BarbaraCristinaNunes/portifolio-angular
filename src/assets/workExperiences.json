@@ -29,7 +29,7 @@
                             "end": 2014,
                             "thesis": "RIQUEZA DE GALHAS INDUZIDAS POR INSETOS AO LONGO DE UM GRADIENTE ALTITUDINAL NA SERRA DO CIPÓ, MG, BRASIL",
                             "link": "",
-                            "institutionLink": "",
+                            "institutionLink": "https://www.una.br/",
                             "degree": "Bachelor"
                         },                        
                         {
@@ -39,7 +39,7 @@
                             "end": 2019,
                             "thesis": "CONSERVAÇÃO DE ESPÉCIES DA FLORA BRASILEIRA AMEAÇADAS DE EXTINÇÃO: ESTUDO DE CASO SOBRE CACTÁCEAS BRASILEIRAS",
                             "link": "https://repositorio.ufmg.br/bitstream/1843/33844/1/PPGEcologiaConsManVidaSilvestre_BarbaraCristinaNunes_DissertacaoMESTRADO.pdf",
-                            "institutionLink": "",
+                            "institutionLink": "https://ufmg.br/",
                             "degree": "Master"
                         },                                
                         {
@@ -49,7 +49,7 @@
                             "end": 2016,
                             "thesis": "USO DA FLORA COMO POTENCIAL INDICADOR BIÓTICO DA EFETIVIDADE DO PARNA SERRA DO CIPÓ, MINAS GERAIS",
                             "link": "",
-                            "institutionLink": "",
+                            "institutionLink": "https://www.una.br/",
                             "degree": "specializtion"
                         }
                     ],
@@ -127,18 +127,38 @@
                         {
                             "languages":[
                                 {
-                                    "portugues": "Native",
-                                    "english": "Intermediate level",
-                                    "spanish": "basic",
-                                    "dutch": "basic"
+                                    "language": "Portugues", 
+                                    "status": "Native"
+                                },
+                                {
+                                    "language": "English",
+                                    "status": "Intermediate level"                                    
+                                },
+                                {
+                                    "language": "Spanish",
+                                    "status": "basic"
+                                },
+                                {
+                                    "language": "Dutch",
+                                    "status": "basic"
                                 }
                             ],
                             "programingLanguages":[
                                 {
-                                    "html": "",
-                                    "javascript": "",
-                                    "css": "",
-                                    "php": ""
+                                    "language": "HTML",
+                                    "status": ""
+                                },
+                                {
+                                    "language": "JavaScript",
+                                    "status": ""                                    
+                                },
+                                {
+                                    "language": "CSS",
+                                    "status": ""                                
+                                },
+                                {
+                                    "language": "PHP",
+                                    "status": ""
                                 }
                             ],
                             "frameworks":[
@@ -158,98 +178,20 @@
                             ]                  
                         }
                     ],
-                    "academicEducation":{
-                        "bachelor": [
-                            {
-                                "studyArea": "",
-                                "institution": "",
-                                "start": "",
-                                "end": "",
-                                "thesis": "",
-                                "thesisLink": "",
-                                "institutionLink": ""
-                            }
-                        ],
-                        "posgraduaction":[
-                            {
-                                "master":[
-                                    {
-                                        "studyArea": "",
-                                        "institution": "",
-                                        "start": "",
-                                        "end": "",
-                                        "thesis": "",
-                                        "thesisLink": "",
-                                        "institutionLink": ""
-                                    }
-                                ],
-                                "specializtion": [
-                                    {
-                                        "studyArea": "",
-                                        "institution": "",
-                                        "start": "",
-                                        "end": "",
-                                        "thesis": "",
-                                        "thesisLink": "",
-                                        "institutionLink": ""
-                                    }
-                                ],
-                                "additional":[
-                                    {
-                                        "studyArea": "Web Development",
-                                        "institution": "Becode",
-                                        "start": "October-2021",
-                                        "end": "April-2022",
-                                        "institutionLink": "https://becode.org/"
-                                    }
-                                ]
-                            }
-                        ]
-        
-                    },
-                    "publications":[
+                    "academicEducation":[
+                        
                         {
-                            "abstracts":[
-                                {
-                                    "title": "",
-                                    "year": "",
-                                    "event": "",
-                                    "institution": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "year": "",
-                                    "event": "",
-                                    "institution": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "year": "",
-                                    "event": ""
-                                }
-                            ],
-                            "papers":[
-                                {
-                                    "title": "",
-                                    "authors": "",
-                                    "paper": "",
-                                    "year": "",
-                                    "extraInfo": "",
-                                    "link": ""
-                                },
-                                {
-                                    "title": "",
-                                    "authors": "",
-                                    "paper": "",
-                                    "year": "",
-                                    "extraInfo": "",
-                                    "link": ""
-                                }
-                            ]
-                        }
+                            "studyArea": "Web Junior Development",
+                            "institution": "Becode",
+                            "start": "October-2021",
+                            "end": "April-2022",
+                            "thesis": "",
+                            "link": "",
+                            "institutionLink": "https://becode.org/",
+                            "degree": ""
+                        }                              
                     ],
+                    "publications":[],
                     "projects":[
                         {
                             "title": "",
