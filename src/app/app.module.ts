@@ -9,8 +9,11 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { MatSliderModule } from '@angular/material/slider';
 import { MatButtonModule } from '@angular/material/button';
-import { RouterModule } from '@angular/router';
+import {MatTabsModule} from '@angular/material/tabs';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatIconModule} from '@angular/material/icon';
 
+import { RouterModule } from '@angular/router';
 import {HttpClientModule} from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 
@@ -28,7 +31,10 @@ import { CommonModule } from '@angular/common';
     MatButtonModule,
     RouterModule,
     HttpClientModule,
-    CommonModule
+    CommonModule,
+    MatTabsModule,
+    MatToolbarModule,
+    MatIconModule
   ],
   providers: [],
   bootstrap: [AppComponent],
