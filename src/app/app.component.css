@@ -5,10 +5,16 @@
     position: absolute;
     z-index: 1;
 }
-
+#navbar{
+    /* overflow: hidden; */
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    width: 100%;
+}
 .container{
     right: 115px;
-    top: 10px;
+    top: 63px;
     position: absolute;
     z-index: 2;
 }
@@ -53,12 +59,16 @@
 
 #biologist{
     margin: 5px;
-    float: right;
+    text-align: center;
+    width: 95%;
+    padding: 10px;
 }
 
 #web-developer{
     margin: 5px;
-    float: right;
+    text-align: center;
+    width: 95%;
+    padding: 10px;
 }
 #me{
     font-size: large;
