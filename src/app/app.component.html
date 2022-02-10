@@ -1,5 +1,24 @@
-<div id="top-container"></div>
-<div class="container">
+<div id="top-container">
+  <div id="navbar">
+    <mat-toolbar>
+      <div class="col-md-6">
+        <button id="biologist" mat-raised-button color="primary" routerLinkActive="router-link-active" (click)="changeInformation('biologist', '/Biologist')">Biologist</button>
+      </div>
+      <div class="col-md-6">
+        <button id="web-developer" mat-raised-button color="primary" routerLinkActive="router-link-active" (click)="changeInformation('developer', '/Web-Developer')">
+          Web Developer
+        </button>
+      </div>   
+    </mat-toolbar>
+  </div>  
+  <div>
+    <router-outlet>
+      
+    </router-outlet>
+  </div>
+<div>
+  
+<!-- <div class="container">
   <div class="row">
       <div class="col-2">
           <img src="../assets/img/profile/eu.png" alt="Barbara Nunes" id="profile-img">
@@ -21,10 +40,19 @@
 
       </div>
   </div>
-  <div class="row">
+  <div class="row"> -->
+  <!-- <div>
+    <div>
+      <button id="biologist" mat-raised-button color="primary" routerLinkActive="router-link-active" (click)="changeInformation('biologist', '/Biologist')">Biologist</button>
+      <button id="web-developer" mat-raised-button color="primary" routerLinkActive="router-link-active" (click)="changeInformation('developer', '/Web-Developer')">
+        Web Developer
+      </button>
+      <p>ola</p>
+    </div>
+    <div>
     <router-outlet>
       
     </router-outlet>
   </div>
-</div>
+</div> -->
 
