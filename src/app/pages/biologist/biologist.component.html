@@ -1,13 +1,42 @@
 <div class="container">
-    <!-- <div class="row" id="education">
-        <h1 class="text-center">Education</h1>
-        <mat-tab-group *ngFor="let project of Projects; let i = index">
+    <div class="row">
+        <div class="col-2">
+            <img src="../assets/img/profile/eu.png" alt="Barbara Nunes" id="profile-img">
+        </div>
+        <div class="col" id="description">
+          <div id="person-information" style="border: solid blueviolet;">
+            <h1 class="text-center" id="name">Bárbara Nunes</h1>
+            <h4 class="text-center" id="title">{{myTitle}}</h4>
+            <p id="me">
+              {{aboutMe}}
+            </p>
+          </div>        
+        </div>
+    </div>
 
-
-        </mat-tab-group>
-    </div> -->
-
+    <div class="row" id="information">
+        <mat-tab-group mat-align-tabs="center">
+            <mat-tab label="Education">
+                    <div class="row" *ngFor="let education of datajason.academicEducation;">
+                        <h5>{{education.degree}}'s degree in {{education.studyArea}}</h5>
+                        <a href="{{education.institutionLink}}">{{education.institution}}</a>
+                        <p>{{education.start}}-{{education.end}}</p>
+                        <p>Dissertation: {{education.thesis}}</p>
+                    </div>
+            </mat-tab>
+            <mat-tab label="Experiences"></mat-tab>
+            <mat-tab label="Skils"></mat-tab>
+            <mat-tab label="Publications">
+                <div class="row" *ngFor="let publication of datajason.publications;">
+                    <h5>{{publication.title}}</h5>
+                    <p>{{publication.authors}}</p>
+                    <p>{{publication.paper}}{{publication.event}}, {{publication.year}}, {{publication.institution}}{{publication.extraInfo}}</p>
+                    <a href="{{publication?.link}}">Read this publication</a>
+                </div>                
+            </mat-tab>
+            <mat-tab label="Projects"></mat-tab>
+            <mat-tab label="Contact Me"></mat-tab>
+          </mat-tab-group>        
+        
+    </div>
 </div>
-
-
-{{datajason.academicEducation[0].institution}}
