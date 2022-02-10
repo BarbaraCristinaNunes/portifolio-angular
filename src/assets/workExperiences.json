@@ -21,17 +21,7 @@
                             ]                  
                         }
                     ],
-                    "academicEducation":[
-                        {
-                            "studyArea": "Biology",
-                            "institution": "Centro Universitário UNA",
-                            "start": 2011,
-                            "end": 2014,
-                            "thesis": "RIQUEZA DE GALHAS INDUZIDAS POR INSETOS AO LONGO DE UM GRADIENTE ALTITUDINAL NA SERRA DO CIPÓ, MG, BRASIL",
-                            "link": "",
-                            "institutionLink": "https://www.una.br/",
-                            "degree": "Bachelor"
-                        },                        
+                    "academicEducation":[                        
                         {
                             "studyArea": "Ecology, Conservation and Wildlife Management",
                             "institution": "Federal University of Minas Gerais",
@@ -40,7 +30,8 @@
                             "thesis": "CONSERVAÇÃO DE ESPÉCIES DA FLORA BRASILEIRA AMEAÇADAS DE EXTINÇÃO: ESTUDO DE CASO SOBRE CACTÁCEAS BRASILEIRAS",
                             "link": "https://repositorio.ufmg.br/bitstream/1843/33844/1/PPGEcologiaConsManVidaSilvestre_BarbaraCristinaNunes_DissertacaoMESTRADO.pdf",
                             "institutionLink": "https://ufmg.br/",
-                            "degree": "Master"
+                            "degree": "Master",
+                            "description": ""
                         },                                
                         {
                             "studyArea": "Conservation Biology",
@@ -50,54 +41,79 @@
                             "thesis": "USO DA FLORA COMO POTENCIAL INDICADOR BIÓTICO DA EFETIVIDADE DO PARNA SERRA DO CIPÓ, MINAS GERAIS",
                             "link": "",
                             "institutionLink": "https://www.una.br/",
-                            "degree": "specializtion"
+                            "degree": "Specializtion",
+                            "description": ""
+                        },
+                        {
+                            "studyArea": "Biology",
+                            "institution": "Centro Universitário UNA",
+                            "start": 2011,
+                            "end": 2014,
+                            "thesis": "RIQUEZA DE GALHAS INDUZIDAS POR INSETOS AO LONGO DE UM GRADIENTE ALTITUDINAL NA SERRA DO CIPÓ, MG, BRASIL",
+                            "link": "",
+                            "institutionLink": "https://www.una.br/",
+                            "degree": "Bachelor",
+                            "description": ""
                         }
                     ],
-                    "publications":
+                    "publications":[
                         {
-                            "abstracts":[
-                                {
-                                    "title": "CARACTERIZAÇÃO DAS GALHAS INDUZIDAS POR INSETOS AO LONGO DE UM GRADIENTE ALTITUDINAL NA SERRA DO CIPÓ, MG, BRASIL",
-                                    "year": "2015",
-                                    "event": "XII Congresso de Ecologia do Brasil",
-                                    "institution": "Society of Ecology of Brazil",
-                                    "link": "http://www.seb-ecologia.org.br/revistas/indexar/anais/xiiceb/pdf/391.pdf",
-                                    "institutionLink": ""
-                                },
-                                {
-                                    "title": "INFLUÊNCIA DA RIQUEZA DE PLANTAS E DO GRADIENTE ALTITUDINAL NA RIQUEZA DE INSETOS GALHADORES EM CAMPO RUPESTRE DA SERRA DO CIPÓ, MINAS GERAIS",
-                                    "year": "2015",
-                                    "event": "XII Congresso de Ecologia do Brasil",
-                                    "institution": "Society of Ecology of Brazil",
-                                    "link": "http://www.seb-ecologia.org.br/revistas/indexar/anais/xiiceb/pdf/776.pdf",
-                                    "institutionLink": ""
-                                },
-                                {
-                                    "title": "CONNECTIVITY AND SIZE DO NOT AFFECT INSECTS IN FOREST FRAGMENT ISLAND",
-                                    "year": "2014",
-                                    "event": "International Symposium on Ecology and Conservation",
-                                    "institutionLink": ""
-                                }
-                            ],
-                            "papers":[
-                                {
-                                    "title": "CO2 Fertilizer Effect on Growth, Polyphenols, and Endophytes in Two Baccharis Species",
-                                    "authors": "OKI, YUMI ; ARANTES-GARCIA, LUCAS ; COSTA, MARINA BATISTA MORAIS ; NUNES, BÁRBARA CRISTINA ; SILVEIRA, BÁRBARA RÚBIA ; GÉLVEZ-ZÚÑIGA, IRENE ; FRANCO, AUGUSTO ; FERNANDES, GERALDO WILSON",
-                                    "paper": "BRAZILIAN ARCHIVES OF BIOLOGY AND TECHNOLOGY",
-                                    "year": "2020",
-                                    "extraInfo": "v. 63, p. 2-10",
-                                    "link": "https://www.scielo.br/j/babt/a/wBzqBNsXGk9MHhFgmBLzfps/?lang=en"
-                                },
-                                {
-                                    "title": "Educação Ambiental: sensibilização sobre a importância da conservação de espécies do Cerrado",
-                                    "authors": "GOMES, M. R. ; NOGUEIRA, J. M. ; AMORIM, S. L. A. ; RODRIGUES, I. P. S. ; MARQUES, P. H. D. ; XAVIER, E. R. S. ; NUNES, B. ; RODRIGUES, R. N. ; PINTO, L. C. L. ; DRUMOND, M. A",
-                                    "paper": "MG. BIOTA",
-                                    "year": "2018",
-                                    "extraInfo": "v. 11, p. 04-19",
-                                    "link": "https://www.sciencedirect.com/science/article/abs/pii/S0367253020302577?via%3Dihub"
-                                }
-                            ]
+                            "type": "Paper",
+                            "title": "CO2 Fertilizer Effect on Growth, Polyphenols, and Endophytes in Two Baccharis Species",
+                            "authors": "OKI, Y., ARANTES-GARCIA, L., COSTA, M.B.M., NUNES, B.C., SILVEIRA, B.R., GÉLVEZ-ZÚÑIGA, I. FRANCO, A. FERNANDES, G.W.",
+                            "paper": "BRAZILIAN ARCHIVES OF BIOLOGY AND TECHNOLOGY",
+                            "year": "2020",
+                            "extraInfo": "v. 63, p. 2-10",
+                            "link": "https://www.scielo.br/j/babt/a/wBzqBNsXGk9MHhFgmBLzfps/?lang=en"
                         },
+                        {
+                            "type": "Paper",
+                            "title": "Morphological and histological characterization of extrafloral nectaries induced by Coelocephalapion galls on Croton antisyphiliticus in the Brazilian Cerrado",
+                            "authors": "Fernandes, G.W., Aguirre-Jaimes, A., Contreras-Varela, X., Cocoletzi E., Sousa, W.O., Araujo, L. Nunes, B., Angeles, G., Quesada, M.",
+                            "paper": "Flora",
+                            "year": "2021",
+                            "extraInfo": "v. 274",
+                            "link": "https://www.sciencedirect.com/science/article/abs/pii/S0367253020302577?via%3Dihub"
+                        },
+                        {
+                            "type": "Paper",
+                            "title": "Educação Ambiental: sensibilização sobre a importância da conservação de espécies do Cerrado",
+                            "authors": "GOMES, M. R. ; NOGUEIRA, J. M. ; AMORIM, S. L. A. ; RODRIGUES, I. P. S. ; MARQUES, P. H. D. ; XAVIER, E. R. S. ; NUNES, B. ; RODRIGUES, R. N. ; PINTO, L. C. L. ; DRUMOND, M. A",
+                            "paper": "MG. BIOTA",
+                            "year": "2018",
+                            "extraInfo": "v. 11, p. 04-19",
+                            "link": ""
+                        },
+                        {   "type": "Abstract",
+                            "title": "Caracterização das galhas induzidas por insetos ao longo de um gradiente altitudinalna Serra do Cipó, MG, Brasil",
+                            "authors": "SANTOS, L., NUNES, B., LUZ, G.R, FERNANDES, G.W.",
+                            "year": "2015",
+                            "event": "XII Congresso de Ecologia do Brasil",
+                            "institution": "Society of Ecology of Brazil",
+                            "link": "http://www.seb-ecologia.org.br/revistas/indexar/anais/xiiceb/pdf/391.pdf",
+                            "institutionLink": ""
+                        },
+                        {
+                            "type": "Abstract",
+                            "title": "Influência da riqueza de plantas e do gradiente altitudinal na riqueza de insetos galhadores em campo rupestre da Serra do Cipó, Minas Gerais",
+                            "authors": "NUNES, B., SANTOS, L., LUZ, G.R., FERNANDES, G.W.",
+                            "year": "2015",
+                            "event": "XII Congresso de Ecologia do Brasil",
+                            "institution": "Society of Ecology of Brazil",
+                            "link": "http://www.seb-ecologia.org.br/revistas/indexar/anais/xiiceb/pdf/776.pdf",
+                            "institutionLink": ""
+                        },
+                        {
+                            "type": "Abstract",
+                            "title": "Connectivity and size do not affect insects in forest fragment island",
+                            "authors": "NUNES, B.C., NOLASCO, V.N., REIS, L.E.M., NEVES, F.S.",
+                            "year": "2014",
+                            "event": "I Simpósio Internacional de Ecologia e Conservação",
+                            "institution": "",
+                            "link": "",
+                            "institutionLink": ""
+                        }
+                    ],
                     "projects":[
                         {
                             "title": "Bioindicadores para avaliação do efeito de mudanças climáticas globais em montanhas tropicais",
@@ -178,17 +194,17 @@
                             ]                  
                         }
                     ],
-                    "academicEducation":[
-                        
+                    "academicEducation":[                        
                         {
                             "studyArea": "Web Junior Development",
                             "institution": "Becode",
-                            "start": "October-2021",
-                            "end": "April-2022",
+                            "start": "October/2021",
+                            "end": "April/2022",
                             "thesis": "",
                             "link": "",
-                            "institutionLink": "https://becode.org/",
-                            "degree": ""
+                            "institutionLink": "https://becode.org/learn/junior-web-developer/",
+                            "degree": "",
+                            "description": "Full time training with duration of 780 hours. During the training I have developed projects in JavaScript, PHP, Angular and Symfony where I could developed coding skills, consolidate the concepts of OOP and learn about MVC architecture, SOLID concepts and MySQL."
                         }                              
                     ],
                     "publications":[],
