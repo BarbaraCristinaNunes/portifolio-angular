@@ -1,0 +1,48 @@
+.container{
+    right: 115px;
+    top: 63px;
+    padding-top: 30px;
+    position: absolute;
+    z-index: 2;
+}
+
+#profile-img{
+    width: 316px;
+    height: 303px;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    margin-top: -1px;
+    margin-bottom: -3px;
+    margin-left: 40px;
+}
+
+#description{
+    width: 350px;
+    border-top: solid black;
+    border-bottom: solid black;
+    background-color: white;
+}
+
+#person-information{
+    height: 250px;
+    margin-left: 150px;
+}
+
+#name{
+   padding-top: 10px;
+}
+
+#title{
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+#me{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#information{
+    padding-top: 50px;
+}
