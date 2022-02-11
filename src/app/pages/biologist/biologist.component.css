@@ -7,14 +7,14 @@
 }
 
 #profile-img{
-    width: 316px;
-    height: 303px;
+    width: 276px;
+    height: 260px;
     border-radius: 50%;
     position: absolute;
     z-index: 2;
     margin-top: -1px;
     margin-bottom: -3px;
-    margin-left: 40px;
+    margin-left: 80px;
 }
 
 #description{
