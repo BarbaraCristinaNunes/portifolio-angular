@@ -3,14 +3,20 @@ import { RouterModule, Routes } from '@angular/router';
 import { BiologistComponent } from './pages/biologist/biologist.component';
 import { WebDeveloperComponent } from './pages/webDeveloper/web-developer.component';
 
-const routes: Routes = [{
+const routes: Routes = [
+  {
   path:"Biologist",
   component: BiologistComponent
-},
-{
-  path:"Web-Developer",
-  component: WebDeveloperComponent
-}];
+  },
+  {
+    path:"Web-Developer",
+    component: WebDeveloperComponent
+  },
+  {
+    path: '',
+    component: WebDeveloperComponent
+  }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
