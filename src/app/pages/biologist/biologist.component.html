@@ -32,7 +32,7 @@
                     <h5>{{publication.title}}</h5>
                     <p>{{publication.authors}}</p>
                     <p>{{publication.paper}}{{publication.event}}, {{publication.year}}, {{publication.institution}}{{publication.extraInfo}}</p>
-                    <a href="{{publication?.link}}">Read this publication</a>
+                    <a *ngIf="publication.link" href="{{publication.link}}">Read this publication</a>
                 </div>                
             </mat-tab>
             <mat-tab label="Projects"></mat-tab>
