@@ -7,42 +7,53 @@
 }
 
 #profile-img{
-    width: 276px;
-    height: 260px;
+    width: 266px;
+    height: 255px;
     border-radius: 50%;
     position: absolute;
     z-index: 2;
-    margin-top: -1px;
+    margin-top: -0.5px;
     margin-bottom: -3px;
     margin-left: 80px;
+    border-left: solid #cb9b8c;
+    border-bottom: solid #cb9b8c;
+    border-top: solid #cb9b8c;
 }
 
 #description{
     width: 350px;
-    border-top: solid black;
-    border-bottom: solid black;
+    border-top: solid #cb9b8c;
+    border-bottom: solid #cb9b8c;
     background-color: white;
 }
 
 #person-information{
-    height: 250px;
+    height: 249px;
     margin-left: 150px;
 }
 
 #name{
    padding-top: 10px;
+   color: #1b0000;
 }
 
 #title{
     padding-top: 5px;
     padding-bottom: 15px;
+    color: #1b0000;
 }
 
 #me{
     padding-left: 15px;
     padding-right: 15px;
+    color: #1b0000;
 }
 
 #information{
     padding-top: 50px;
+}
+
+a{
+    color: #cb9b8c;
+    text-decoration: none;
 }
