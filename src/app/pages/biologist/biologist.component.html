@@ -1,43 +1,60 @@
 <div class="container">
-    <div class="row">
-        <div class="col-md-2">
-            <img src="../assets/img/profile/eu.png" alt="Barbara Nunes" id="profile-img">
-        </div>
-        <div class="col-md" id="description">
-          <div id="person-information">
-            <h1 class="text-center" id="name">Bárbara Nunes</h1>
-            <h4 class="text-center" id="title">{{myTitle}}</h4>
-            <p id="me" class="text-justify">
-              {{aboutMe}}
-            </p>
-          </div>        
-        </div>
-        <div class="col-md-1"></div>
-    </div>
+  <div class="row">
+      <div class="col-md-2">
+          <img src="../assets/img/profile/eu.png" alt="Barbara Nunes" id="profile-img">
+      </div>
+      <div class="col-md" id="description">
+        <div id="person-information">
+          <h1 class="text-center" id="name">Bárbara Nunes</h1>
+          <h4 class="text-center" id="title">{{myTitle}}</h4>
+          <p id="me" class="text-justify">
+            {{aboutMe}}
+          </p>
+        </div>        
+      </div>
+      <div class="col-md-1"></div>
+  </div>
 
-    <div class="row" id="information">
-        <mat-tab-group mat-align-tabs="center">
-            <mat-tab label="Education">
-                    <div class="row" *ngFor="let education of datajason.academicEducation;">
-                        <h5>{{education.degree}}'s degree in {{education.studyArea}}</h5>
-                        <a href="{{education.institutionLink}}">{{education.institution}}</a>
-                        <p>{{education.start}}-{{education.end}}</p>
-                        <p>Dissertation: {{education.thesis}}</p>
-                    </div>
-            </mat-tab>
-            <mat-tab label="Experiences"></mat-tab>
-            <mat-tab label="Skils"></mat-tab>
-            <mat-tab label="Publications">
-                <div class="row" *ngFor="let publication of datajason.publications;">
-                    <h5>{{publication.title}}</h5>
-                    <p>{{publication.authors}}</p>
-                    <p>{{publication.paper}}{{publication.event}}, {{publication.year}}, {{publication.institution}}{{publication.extraInfo}}</p>
-                    <a *ngIf="publication.link" href="{{publication.link}}">Read this publication</a>
-                </div>                
-            </mat-tab>
-            <mat-tab label="Projects"></mat-tab>
-            <mat-tab label="Contact Me"></mat-tab>
-          </mat-tab-group>        
-        
-    </div>
+  <div class="row" id="information">
+    <mat-tab-group class="mat-primary" mat-align-tabs="center" aria-label="accent">
+        <mat-tab label="Education">
+          <div class="row">
+            <div class="col-md" *ngFor="let education of datajason.academicEducation;">
+              <mat-card class="institutionCard">
+                <mat-card-header>
+                  <mat-card-title class="title">{{education.degree}}'s degree in {{education.studyArea}}</mat-card-title>
+                </mat-card-header>
+                <div class="logoImage">
+                  <a href="{{education.institutionLink}}">
+                    <img mat-card-image class="logo" src="{{education.logo}}" alt="logo">
+                  </a>
+                </div>
+                <mat-card-content class="cartDescription">
+                  <p>{{education.institution}}</p>
+                      <p>Started in {{education.start}}- Finished in {{education.end}}</p>
+                      <p>Dissertation: {{education.thesis}}</p>
+                </mat-card-content>
+                <mat-card-actions class="text-center">
+                  <a *ngIf="education.link" href="{{education.link}}">
+                    <button mat-stroked-button>Read Dissertation</button>
+                  </a>
+                </mat-card-actions>
+              </mat-card>
+            </div>
+          </div>
+        </mat-tab>
+        <mat-tab label="Experiences"></mat-tab>
+        <mat-tab label="Skils"></mat-tab>
+        <mat-tab label="Publications">
+            <div class="row" class="publications" *ngFor="let publication of datajason.publications;">
+                <h5>{{publication.title}}</h5>
+                <p id="authors">{{publication.authors}}</p>
+                <p>Published in: {{publication.paper}}{{publication.event}}, {{publication.year}}, {{publication.institution}}{{publication.extraInfo}}</p>
+                <a *ngIf="publication.link" href="{{publication.link}}">Read this publication</a>
+            </div>                
+        </mat-tab>
+        <mat-tab label="Projects"></mat-tab>
+        <mat-tab label="Contact Me"></mat-tab>
+    </mat-tab-group>     
+  </div>
 </div>
