@@ -24,11 +24,13 @@
             <div class="col-md-4" *ngFor="let education of datajason.academicEducation;">
               <mat-card class="institutionCard">
                 <mat-card-header>
-                  <mat-card-title class="title">{{education.degree}}'s degree in {{education.studyArea}}</mat-card-title>
+                  <div class="title">
+                    <mat-card-title>{{education.degree}}'s degree in {{education.studyArea}}</mat-card-title>
+                  </div>
                 </mat-card-header>
                 <div class="logoImage">
                   <a href="{{education.institutionLink}}">
-                    <img mat-card-image class="logo" src="{{education.logo}}" alt="logo">
+                    <img class="text-center" mat-card-image class="logo" src="{{education.logo}}" alt="logo">
                   </a>
                 </div>
                 <mat-card-content class="cartDescription">
@@ -36,7 +38,7 @@
                   <p class="duration">Started in {{education.start}}- Finished in {{education.end}}</p>
                   <p>Dissertation: {{education.thesis}}</p>
                 </mat-card-content>
-                <mat-card-actions class="text-center">
+                <mat-card-actions class="btnDiv">
                   <a *ngIf="education.link" href="{{education.link}}">
                     <button mat-stroked-button>Read Dissertation</button>
                   </a>
@@ -51,12 +53,12 @@
             <div class="col-sm-1" class="divDatails">
               <div class="square"></div>              
             </div>
-            <div class="col-sm-1" style="padding-top: 50px;">
+            <div class="col-sm-1 experienceDescription">
               <a href="{{experience.institutionLink}}">
                 <img class="experienceLogo" src="{{experience.logo}}" alt="logo">
               </a>
             </div>
-            <div class="col-md-6" style="padding-top: 50px;">
+            <div class="col-md-6 experienceDescription">
               <h6>{{experience.responsibility}} at {{experience.company}}</h6>
               <p class="duration">Started in {{experience.start}} - Finished in {{experience.end}}</p>
               <ul *ngFor="let task of experience.tasks">                
@@ -71,15 +73,17 @@
         <mat-tab label="Publications">
           <div class="row">
             <div class="col-md-4" *ngFor="let publication of datajason.publications;">
-              <mat-card class="institutionCard">
+              <mat-card class="publicationCard">
                 <mat-card-header>
-                  <mat-card-title class="title">{{publication.title}}</mat-card-title>
+                  <div class="publicationTitle">
+                    <mat-card-title>{{publication.title}}</mat-card-title>
+                  </div>                  
                 </mat-card-header>
-                <mat-card-content class="cartDescription">
+                <mat-card-content class="publicationCartDescription">
                   <p id="authors">{{publication.authors}}</p>
                   <p>Published in: {{publication.paper}}{{publication.event}}, {{publication.year}}, {{publication.institution}}{{publication.extraInfo}}</p>
                 </mat-card-content>
-                <mat-card-actions class="text-center">
+                <mat-card-actions class="btnDiv">
                   <a *ngIf="publication.link" href="{{publication.link}}">
                     <button mat-stroked-button>Read publication</button>
                   </a>
