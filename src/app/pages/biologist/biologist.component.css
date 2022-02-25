@@ -1,3 +1,4 @@
+/* All divs from the project are into container */
 .container{
     right: 115px;
     top: 63px;
@@ -5,6 +6,8 @@
     z-index: 2;
     padding-top: 30px;
 }
+
+/* Personal description style */
 
 #profile-img{
     width: 266px;
@@ -20,6 +23,7 @@
     border-top: solid #b3bc6d;
 }
 
+/* description is a div where I put text about me. This div is in the same hierarchy that div of profile image */
 #description{
     width: 350px;
     border-top: solid #b3bc6d;
@@ -48,36 +52,52 @@
     padding-right: 15px;
     color: #00251a;
 }
+/* ---------End of personal description style -------------- */
 
+/* Information is a div where I show my prefessional information */
 #information{
     padding-top: 50px;
 }
 
-a{
-    color: #b3bc6d;
-    text-decoration: none;
-}
-
+/* Card style. It is applyed to all cards */
 .institutionCard{
     max-width: 350px;
     margin: 50px;
     border: solid #e6ee9c 1px;
     box-shadow: 5px 5px 2px #b3bc6d;
 } 
+
 .title{
     text-align: center;
 }
+
 .logoImage{
     text-align: center;
     padding: 50px;
 }
+
 .logo{
     width: 150px;
     height: auto;    
 }
+
+.logo:hover{
+    width: 200px;
+    height: auto;
+}
+
 .cartDescription{
     text-align: justify;
 }
+/* ---------End of card style -------------- */
+
+/* It is applyed to all links */
+a{
+    color: #b3bc6d;
+    text-decoration: none;
+}
+
+
 .publications{
     padding-top: 10px;
     border-bottom: solid #b3bc6d9d 1px;
