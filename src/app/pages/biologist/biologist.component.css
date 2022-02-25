@@ -97,7 +97,34 @@ a{
     
     text-decoration: none;
 }
+/* It is applyes to all buttons */
 
 button:hover{
     background-color: #ffffce;
+}
+
+/* It is applyed to all dates */
+
+.duration{
+    font-size: smaller;
+}
+
+/* divDatails and square are responsible to create a line and a square in the first collumn from experiences part */
+.divDatails{
+    width: 10px;
+    height: auto;
+    background-color: #b3bc6d;
+}
+.square{
+    width: 20px;
+    height: 20px;
+    margin-top: 65px;
+    background-color: #b3bc6d;
+    transform: rotate(45deg);
+}
+
+.experienceLogo{
+    width: 50px;
+    height: auto;
+    margin-left: 10px;
 }
