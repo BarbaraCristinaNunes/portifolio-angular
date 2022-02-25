@@ -7,42 +7,82 @@
 }
 
 #profile-img{
-    width: 276px;
-    height: 260px;
+    width: 266px;
+    height: 255px;
     border-radius: 50%;
     position: absolute;
     z-index: 2;
-    margin-top: -1px;
+    margin-top: -0.5px;
     margin-bottom: -3px;
     margin-left: 80px;
+    border-left: solid #b3bc6d;
+    border-bottom: solid #b3bc6d;
+    border-top: solid #b3bc6d;
 }
 
 #description{
     width: 350px;
-    border-top: solid black;
-    border-bottom: solid black;
+    border-top: solid #b3bc6d;
+    border-bottom: solid #b3bc6d;
     background-color: white;
 }
 
 #person-information{
-    height: 250px;
+    height: 249px;
     margin-left: 150px;
 }
 
 #name{
    padding-top: 10px;
+   color: #00251a;
 }
 
 #title{
     padding-top: 5px;
     padding-bottom: 15px;
+    color: #00251a;
 }
 
 #me{
     padding-left: 15px;
     padding-right: 15px;
+    color: #00251a;
 }
 
 #information{
     padding-top: 50px;
+}
+
+a{
+    color: #b3bc6d;
+    text-decoration: none;
+}
+
+.institutionCard{
+    max-width: 350px;
+    margin: 50px;
+    border: solid #e6ee9c 1px;
+    box-shadow: 5px 5px 2px #b3bc6d;
+} 
+.title{
+    text-align: center;
+}
+.logoImage{
+    text-align: center;
+    padding: 50px;
+}
+.logo{
+    width: 150px;
+    height: auto;    
+}
+.cartDescription{
+    text-align: justify;
+}
+.publications{
+    padding-top: 10px;
+    border-bottom: solid #b3bc6d9d 1px;
+}
+
+#authors{
+    font-size: small;
 }
