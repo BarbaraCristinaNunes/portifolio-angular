@@ -14,6 +14,7 @@ export class BiologistComponent implements OnInit {
     academicEducation : any;
     publications : any;
     experiences : any;
+    skills : any;
 
     ngOnInit() { 
         this.httpclient.get('assets/workExperiences.json').subscribe((data:any) => {
@@ -21,6 +22,7 @@ export class BiologistComponent implements OnInit {
             this.academicEducation = data?.workExperiences?.biologist?.academicEducation;
             this.publications = data?.workExperiences?.biologist?.publiccations;
             this.experiences = data?.workExperiences?.biologist?.experiences;
+            this.skills = data?.workExperiences?.biologist?.skills;
         })
     }
 }
