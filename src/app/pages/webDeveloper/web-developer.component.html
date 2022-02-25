@@ -19,10 +19,37 @@
     <div class="row" id="information">
         <mat-tab-group animationDuration="0ms" mat-align-tabs="center">
             <mat-tab label="Education" *ngFor="let education of datajason.academicEducation;">
-                <h5>{{education.degree}}{{education.studyArea}}</h5>
+                <!-- <h5>{{education.degree}}{{education.studyArea}}</h5>
                 <a href="{{education.institutionLink}}">{{education.institution}}</a>
                 <p>{{education.start}}-{{education.end}}</p>
-                <p>{{education.description}}</p>
+                <p>{{education.description}}</p> -->
+
+                <div class="row">
+                  <div class="col-md-4" *ngFor="let education of datajason.academicEducation;">
+                    <mat-card class="institutionCard">
+                      <mat-card-header>
+                        <div class="title">
+                          <mat-card-title>{{education.degree}} {{education.studyArea}}</mat-card-title>
+                        </div>
+                      </mat-card-header>
+                      <div class="logoImage">
+                        <a href="{{education.institutionLink}}">
+                          <img class="text-center" mat-card-image class="logo" src="{{education.logo}}" alt="logo">
+                        </a>
+                      </div>
+                      <mat-card-content class="cartDescription">
+                        <p>{{education.institution}}</p>
+                        <p class="duration">Started in {{education.start}}- Finished in {{education.end}}</p>
+                        <p>{{education.description}}</p>
+                      </mat-card-content>
+                      <mat-card-actions class="btnDiv">
+                        <a *ngIf="education.link" href="{{education.link}}">
+                          <button mat-stroked-button>Read Dissertation</button>
+                        </a>
+                      </mat-card-actions>
+                    </mat-card>
+                  </div>
+                </div>
             </mat-tab>
             <mat-tab label="Experiences"></mat-tab>
             <mat-tab label="Skils"></mat-tab>
