@@ -6,10 +6,58 @@
                     "profileImg":{            
                         "img": "../assets/img/profile/biolgist.jpg"
                     },
-                    "experiences":{
-        
-                    },
-                    "skils":[
+                    "experiences":[
+                        {
+                            "responsibility": "Environmental Analyst",
+                            "company": "Bicho do Mato Meio Ambiente",
+                            "start": "May 2018",
+                            "end": "Oct 2018",
+                            "tasks": [
+                                "Team leader",
+                                "Collect of flora for the Project called Evaluation of Impacts and Monitoring of the Terrestrial Flora in Minas Gerais and Espírito Santo, Brazil, in affected areas for rupture of Fundão’s Dam up river Doce"
+                        ],
+                            "logo": "../assets/img/experiences-logos/bicho-mato.png",
+                            "institutionLink": "https://bichodomato.net.br/"
+                        },
+                        {
+                            "responsibility": "Research Scholarship",
+                            "company": "Laboratory of Evolutionary Ecology and Biodiversity - Federal University of Minas Gerais",
+                            "start": "Aug 2014",
+                            "end": "Feb 2017",
+                            "tasks": [
+                                "Team leader", 
+                                "Collect and identification of flora and entomofauna from Cerrado (Brazilian biome)", 
+                                "Project and biological data management",
+                                "Write of technical report",
+                                "Coach of Biological Data Management Workshop"
+                            ],
+                            "logo": "../assets/img/experiences-logos/ufmg.png",
+                            "institutionLink": "https://ufmg.br/"
+                        },
+                        {
+                            "responsibility": "Intern",
+                            "company": "Laboratory of Insect Ecology - Federal University of Minas Gerais",
+                            "start": "Jan 2014",
+                            "end": "Aug 2014",
+                            "tasks": [
+                                "Identification of herbivore insects from Mata Atlântica (Brazilian biome) and field assistant in studies about ants"
+                            ],
+                            "logo": "../assets/img/experiences-logos/ufmg.png",
+                            "institutionLink": "https://ufmg.br/"
+                        },
+                        {
+                            "responsibility": "Intern",
+                            "company": "Laboratory of Microorganism Genetics - Federal University of Minas Gerais",
+                            "start": "Dec 2012",
+                            "end": "Aug 2013",
+                            "tasks": [
+                                "Assistant on project about bacterial resistance of antibiotic."
+                            ],
+                            "logo": "../assets/img/experiences-logos/ufmg.png",
+                            "institutionLink": "https://ufmg.br/"
+                        }
+                    ],
+                    "skills":[
                         {
                             "languages":[
                                 {
