@@ -1,4 +1,5 @@
 <div class="container">
+  <!-- description session -->
   <div class="row">
       <div class="col-md-2">
           <img src="../assets/img/profile/eu.png" alt="Barbara Nunes" id="profile-img">
@@ -14,9 +15,10 @@
       </div>
       <div class="col-md-1"></div>
   </div>
-
+  <!-- begin of the tab -->
   <div class="row" id="information">
     <mat-tab-group class="mat-primary" mat-align-tabs="center" aria-label="accent">
+      <!-- Information about education -->
         <mat-tab label="Education">
           <div class="row">
             <div class="col-md-4" *ngFor="let education of datajason.academicEducation;">
@@ -31,7 +33,7 @@
                 </div>
                 <mat-card-content class="cartDescription">
                   <p>{{education.institution}}</p>
-                  <p>Started in {{education.start}}- Finished in {{education.end}}</p>
+                  <p class="duration">Started in {{education.start}}- Finished in {{education.end}}</p>
                   <p>Dissertation: {{education.thesis}}</p>
                 </mat-card-content>
                 <mat-card-actions class="text-center">
@@ -43,8 +45,29 @@
             </div>
           </div>
         </mat-tab>
-        <mat-tab label="Experiences"></mat-tab>
-        <mat-tab label="Skils"></mat-tab>
+        <!-- My experiences -->
+        <mat-tab label="Experiences">
+          <div class="row" *ngFor="let experience of datajason.experiences;">
+            <div class="col-sm-1" class="divDatails">
+              <div class="square"></div>              
+            </div>
+            <div class="col-sm-1" style="padding-top: 50px;">
+              <a href="{{experience.institutionLink}}">
+                <img class="experienceLogo" src="{{experience.logo}}" alt="logo">
+              </a>
+            </div>
+            <div class="col-md-6" style="padding-top: 50px;">
+              <h6>{{experience.responsibility}} at {{experience.company}}</h6>
+              <p class="duration">Started in {{experience.start}} - Finished in {{experience.end}}</p>
+              <ul *ngFor="let task of experience.tasks">                
+                <li>{{task}}</li>
+              </ul>
+            </div>              
+          </div>
+        </mat-tab>
+        <!-- My Skills -->
+        <mat-tab label="Skills"></mat-tab>
+        <!-- My publications -->
         <mat-tab label="Publications">
           <div class="row">
             <div class="col-md-4" *ngFor="let publication of datajason.publications;">
@@ -65,7 +88,9 @@
             </div>
           </div>
         </mat-tab>
+        <!-- My projects -->
         <mat-tab label="Projects"></mat-tab>
+        <!-- contacts -->
         <mat-tab label="Contact Me"></mat-tab>
     </mat-tab-group>     
   </div>
