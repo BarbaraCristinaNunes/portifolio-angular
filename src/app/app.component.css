@@ -1,7 +1,7 @@
 #top-container{
     height: 180px;
     width: 100%;
-    background-color: aqua;
+    /* background-color: aqua; */
     position: absolute;
     z-index: 1;
 }
@@ -12,6 +12,9 @@
     top: 0;
     width: 100%;
 }
+.mat-toolbar{
+    background-image: linear-gradient(to right, #b3bc6d, #cb9b8c);
+}
 .container{
     right: 115px;
     top: 63px;
@@ -19,49 +22,18 @@
     z-index: 2;
 }
 
-#profile-img{
-    width: 316px;
-    height: 303px;
-    border-radius: 50%;
-    position: absolute;
-    z-index: 2;
-    margin-top: -1px;
-    margin-bottom: -3px;
-    margin-left: 40px;
-}
-
-#description{
-    width: 350px;
-    border-top: solid black;
-    border-bottom: solid black;
-    background-color: white;
-}
-
-#person-information{
-    height: 250px;
-    margin-left: 150px;
-}
-
-#name{
-   padding-top: 10px;
-}
-
-#title{
-    padding-top: 5px;
-    padding-bottom: 15px;
-}
-
-#me{
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-
 #biologist{
     margin: 5px;
     text-align: center;
     width: 95%;
     padding: 10px;
+    background-color: #b3bc6d;
+    color: #ffffce;
+    font-size: x-large;
+}
+
+#biologist:focus{
+    background-color: #a0af22;
 }
 
 #web-developer{
@@ -69,7 +41,15 @@
     text-align: center;
     width: 95%;
     padding: 10px;
+    background-color: #cb9b8c;
+    color: #ffffee;
+    font-size: x-large;
 }
+
+#web-developer:focus{
+    background-color: #c75b39;
+}
+
 #me{
     font-size: large;
 }
