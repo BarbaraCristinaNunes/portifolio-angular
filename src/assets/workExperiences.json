@@ -268,7 +268,7 @@
                     ],
                     "academicEducation":[                        
                         {
-                            "studyArea": "Web Junior Development",
+                            "studyArea": "Web Junior Developer",
                             "institution": "Becode",
                             "start": "October/2021",
                             "end": "April/2022",
@@ -276,7 +276,8 @@
                             "link": "",
                             "institutionLink": "https://becode.org/learn/junior-web-developer/",
                             "degree": "",
-                            "description": "Full time training with duration of 780 hours. During the training I have developed projects in JavaScript, PHP, Angular and Symfony where I could developed coding skills, consolidate the concepts of OOP and learn about MVC architecture, SOLID concepts and MySQL."
+                            "description": "Full time training with duration of 780 hours. During the training I have developed projects in JavaScript, PHP, Angular and Symfony where I could developed coding skills, consolidate the concepts of OOP and learn about MVC architecture, SOLID concepts and MySQL.",
+                            "logo": "../assets/img/educations-logos/becode.png"
                         }                              
                     ],
                     "publications":[],
