@@ -12,6 +12,7 @@ import { MatButtonModule } from '@angular/material/button';
 import {MatTabsModule} from '@angular/material/tabs';
 import {MatToolbarModule} from '@angular/material/toolbar';
 import {MatIconModule} from '@angular/material/icon';
+import {MatCardModule} from '@angular/material/card';
 
 import { RouterModule } from '@angular/router';
 import {HttpClientModule} from '@angular/common/http';
@@ -34,7 +35,8 @@ import { CommonModule } from '@angular/common';
     CommonModule,
     MatTabsModule,
     MatToolbarModule,
-    MatIconModule
+    MatIconModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent],
