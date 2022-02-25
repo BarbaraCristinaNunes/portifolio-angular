@@ -61,11 +61,32 @@
                         {
                             "languages":[
                                 {
-                                    "portugues": "Native",
-                                    "english": "Intermediate level",
-                                    "spanish": "basic",
-                                    "dutch": "basic"
+                                    "language": "Portugues", 
+                                    "status": "Native"
+                                },
+                                {
+                                    "language": "English",
+                                    "status": "Intermediate level"                                    
+                                },
+                                {
+                                    "language": "Spanish",
+                                    "status": "Basic"
+                                },
+                                {
+                                    "language": "Dutch",
+                                    "status": "Basic"
                                 }
+                            ],
+                            "softSkills":[
+                                "People Management",
+                                "Project Management",
+                                "Academic Research",
+                                "Report Writing",
+                                "Scientific Writing",
+                                "Ecology",
+                                "Environmental Consulting",
+                                "Plant Ecology",
+                                "Plant Identification"
                             ]                  
                         }
                     ],
@@ -230,17 +251,17 @@
                             ],
                             "frameworks":[
                                 {
-                                    "angular": ""
+                                    "angular": "Angular"
                                 }
                             ],
                             "libraries":[
                                 {
-                                    "bootstrap": ""
+                                    "bootstrap": "Bootstrap"
                                 }
                             ],
                             "designLanguages":[
                                 {
-                                    "materialDesign": ""
+                                    "materialDesign": "Material Desing"
                                 }
                             ]                  
                         }
