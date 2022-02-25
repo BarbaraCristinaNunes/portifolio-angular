@@ -57,3 +57,46 @@ a{
     color: #cb9b8c;
     text-decoration: none;
 }
+
+/* Card style. It is applyed to cards from education*/
+.institutionCard{
+    width: 350px;
+    height: 600px;
+    margin: 50px;
+    border: solid #ffccbc 1px;
+    box-shadow: 5px 5px 2px #cb9b8c;
+} 
+
+.title{
+    text-align: center;
+    height: 100px;
+}
+
+.logoImage{
+    text-align: center;
+    height: 210px;
+}
+
+.logo{
+    width: 150px;
+    height: auto;    
+}
+
+.logo:hover{
+    width: 200px;
+    height: auto;
+}
+
+.cartDescription{
+    text-align: justify;
+    height: 140px;
+}
+
+.btnDiv{
+    text-align: center;
+    height: 90px;
+}
+/* ---------End of education cards style -------------- */
+.duration{
+    font-size: smaller;
+}
