@@ -31,7 +31,8 @@
                             "link": "https://repositorio.ufmg.br/bitstream/1843/33844/1/PPGEcologiaConsManVidaSilvestre_BarbaraCristinaNunes_DissertacaoMESTRADO.pdf",
                             "institutionLink": "https://ufmg.br/",
                             "degree": "Master",
-                            "description": ""
+                            "description": "",
+                            "logo": "../assets/img/educations-logos/ecmvs.png"
                         },                                
                         {
                             "studyArea": "Conservation Biology",
@@ -42,7 +43,8 @@
                             "link": "",
                             "institutionLink": "https://www.una.br/",
                             "degree": "Specializtion",
-                            "description": ""
+                            "description": "",
+                            "logo": "../assets/img/educations-logos/una.png"
                         },
                         {
                             "studyArea": "Biology",
@@ -53,7 +55,8 @@
                             "link": "",
                             "institutionLink": "https://www.una.br/",
                             "degree": "Bachelor",
-                            "description": ""
+                            "description": "",
+                            "logo": "../assets/img/educations-logos/una.png"
                         }
                     ],
                     "publications":[
@@ -61,7 +64,7 @@
                             "type": "Paper",
                             "title": "CO2 Fertilizer Effect on Growth, Polyphenols, and Endophytes in Two Baccharis Species",
                             "authors": "OKI, Y., ARANTES-GARCIA, L., COSTA, M.B.M., NUNES, B.C., SILVEIRA, B.R., GÉLVEZ-ZÚÑIGA, I. FRANCO, A. FERNANDES, G.W.",
-                            "paper": "BRAZILIAN ARCHIVES OF BIOLOGY AND TECHNOLOGY",
+                            "paper": "Brazilian Aechives of Biology and Technology",
                             "year": "2020",
                             "extraInfo": "v. 63, p. 2-10",
                             "link": "https://www.scielo.br/j/babt/a/wBzqBNsXGk9MHhFgmBLzfps/?lang=en"
@@ -69,7 +72,7 @@
                         {
                             "type": "Paper",
                             "title": "Morphological and histological characterization of extrafloral nectaries induced by Coelocephalapion galls on Croton antisyphiliticus in the Brazilian Cerrado",
-                            "authors": "Fernandes, G.W., Aguirre-Jaimes, A., Contreras-Varela, X., Cocoletzi E., Sousa, W.O., Araujo, L. Nunes, B., Angeles, G., Quesada, M.",
+                            "authors": "FERNANDES, G.W., AGUIRRE-JAIMES, A., CONTRERAS-VARELA, X., COCOLETZI, E., SOUSA, W.O., ARAUJO, L. NUNES, B., ANGELES, G., QUESADA, M.",
                             "paper": "Flora",
                             "year": "2021",
                             "extraInfo": "v. 274",
@@ -79,7 +82,7 @@
                             "type": "Paper",
                             "title": "Educação Ambiental: sensibilização sobre a importância da conservação de espécies do Cerrado",
                             "authors": "GOMES, M. R. ; NOGUEIRA, J. M. ; AMORIM, S. L. A. ; RODRIGUES, I. P. S. ; MARQUES, P. H. D. ; XAVIER, E. R. S. ; NUNES, B. ; RODRIGUES, R. N. ; PINTO, L. C. L. ; DRUMOND, M. A",
-                            "paper": "MG. BIOTA",
+                            "paper": "MG. Biota",
                             "year": "2018",
                             "extraInfo": "v. 11, p. 04-19",
                             "link": ""
