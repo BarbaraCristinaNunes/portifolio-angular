@@ -19,7 +19,7 @@
     <mat-tab-group class="mat-primary" mat-align-tabs="center" aria-label="accent">
         <mat-tab label="Education">
           <div class="row">
-            <div class="col-md" *ngFor="let education of datajason.academicEducation;">
+            <div class="col-md-4" *ngFor="let education of datajason.academicEducation;">
               <mat-card class="institutionCard">
                 <mat-card-header>
                   <mat-card-title class="title">{{education.degree}}'s degree in {{education.studyArea}}</mat-card-title>
@@ -31,8 +31,8 @@
                 </div>
                 <mat-card-content class="cartDescription">
                   <p>{{education.institution}}</p>
-                      <p>Started in {{education.start}}- Finished in {{education.end}}</p>
-                      <p>Dissertation: {{education.thesis}}</p>
+                  <p>Started in {{education.start}}- Finished in {{education.end}}</p>
+                  <p>Dissertation: {{education.thesis}}</p>
                 </mat-card-content>
                 <mat-card-actions class="text-center">
                   <a *ngIf="education.link" href="{{education.link}}">
@@ -46,12 +46,24 @@
         <mat-tab label="Experiences"></mat-tab>
         <mat-tab label="Skils"></mat-tab>
         <mat-tab label="Publications">
-            <div class="row" class="publications" *ngFor="let publication of datajason.publications;">
-                <h5>{{publication.title}}</h5>
-                <p id="authors">{{publication.authors}}</p>
-                <p>Published in: {{publication.paper}}{{publication.event}}, {{publication.year}}, {{publication.institution}}{{publication.extraInfo}}</p>
-                <a *ngIf="publication.link" href="{{publication.link}}">Read this publication</a>
-            </div>                
+          <div class="row">
+            <div class="col-md-4" *ngFor="let publication of datajason.publications;">
+              <mat-card class="institutionCard">
+                <mat-card-header>
+                  <mat-card-title class="title">{{publication.title}}</mat-card-title>
+                </mat-card-header>
+                <mat-card-content class="cartDescription">
+                  <p id="authors">{{publication.authors}}</p>
+                  <p>Published in: {{publication.paper}}{{publication.event}}, {{publication.year}}, {{publication.institution}}{{publication.extraInfo}}</p>
+                </mat-card-content>
+                <mat-card-actions class="text-center">
+                  <a *ngIf="publication.link" href="{{publication.link}}">
+                    <button mat-stroked-button>Read publication</button>
+                  </a>
+                </mat-card-actions>
+              </mat-card>
+            </div>
+          </div>
         </mat-tab>
         <mat-tab label="Projects"></mat-tab>
         <mat-tab label="Contact Me"></mat-tab>
