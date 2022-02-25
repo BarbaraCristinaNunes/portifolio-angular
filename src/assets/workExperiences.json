@@ -110,21 +110,21 @@
                     "publications":[
                         {
                             "type": "Paper",
-                            "title": "CO2 Fertilizer Effect on Growth, Polyphenols, and Endophytes in Two Baccharis Species",
-                            "authors": "OKI, Y., ARANTES-GARCIA, L., COSTA, M.B.M., NUNES, B.C., SILVEIRA, B.R., GÉLVEZ-ZÚÑIGA, I. FRANCO, A. FERNANDES, G.W.",
-                            "paper": "Brazilian Aechives of Biology and Technology",
-                            "year": "2020",
-                            "extraInfo": "v. 63, p. 2-10",
-                            "link": "https://www.scielo.br/j/babt/a/wBzqBNsXGk9MHhFgmBLzfps/?lang=en"
-                        },
-                        {
-                            "type": "Paper",
                             "title": "Morphological and histological characterization of extrafloral nectaries induced by Coelocephalapion galls on Croton antisyphiliticus in the Brazilian Cerrado",
                             "authors": "FERNANDES, G.W., AGUIRRE-JAIMES, A., CONTRERAS-VARELA, X., COCOLETZI, E., SOUSA, W.O., ARAUJO, L. NUNES, B., ANGELES, G., QUESADA, M.",
                             "paper": "Flora",
                             "year": "2021",
                             "extraInfo": "v. 274",
                             "link": "https://www.sciencedirect.com/science/article/abs/pii/S0367253020302577?via%3Dihub"
+                        },
+                        {
+                            "type": "Paper",
+                            "title": "CO2 Fertilizer Effect on Growth, Polyphenols, and Endophytes in Two Baccharis Species",
+                            "authors": "OKI, Y., ARANTES-GARCIA, L., COSTA, M.B.M., NUNES, B.C., SILVEIRA, B.R., GÉLVEZ-ZÚÑIGA, I. FRANCO, A. FERNANDES, G.W.",
+                            "paper": "Brazilian Aechives of Biology and Technology",
+                            "year": "2020",
+                            "extraInfo": "v. 63, p. 2-10",
+                            "link": "https://www.scielo.br/j/babt/a/wBzqBNsXGk9MHhFgmBLzfps/?lang=en"
                         },
                         {
                             "type": "Paper",
