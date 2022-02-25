@@ -12,13 +12,13 @@ export class BiologistComponent implements OnInit {
     aboutMe = "I am a biologist passionate for plant ecology, distribution patterns and conservations. My goal as a biologist is to work with plant conservation, mainly with endangered plants. My main skills as a biologist are plant identification, creating species distribution maps (ArcGIS), biological data management and project management.";
     datajason : any;
     academicEducation : any;
-    publiccations : any;
+    publications : any;
 
     ngOnInit() { 
         this.httpclient.get('assets/workExperiences.json').subscribe((data:any) => {
             this.datajason = data?.workExperiences?.biologist;
             this.academicEducation = data?.workExperiences?.webDeveloper.academicEducation;
-            this.publiccations = data?.workExperiences?.webDeveloper.publiccations;
+            this.publications = data?.workExperiences?.webDeveloper.publiccations;
         })
     }
 }
