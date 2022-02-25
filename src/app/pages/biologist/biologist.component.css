@@ -59,9 +59,10 @@
     padding-top: 50px;
 }
 
-/* Card style. It is applyed to all cards */
+/* Card style. It is applyed to cards from education*/
 .institutionCard{
-    max-width: 350px;
+    width: 350px;
+    height: 600px;
     margin: 50px;
     border: solid #e6ee9c 1px;
     box-shadow: 5px 5px 2px #b3bc6d;
@@ -69,11 +70,12 @@
 
 .title{
     text-align: center;
+    height: 150px;
 }
 
 .logoImage{
     text-align: center;
-    padding: 50px;
+    height: 210px;
 }
 
 .logo{
@@ -88,8 +90,39 @@
 
 .cartDescription{
     text-align: justify;
+    height: 140px;
 }
-/* ---------End of card style -------------- */
+
+.btnDiv{
+    text-align: center;
+    height: 90px;
+}
+/* ---------End of education cards style -------------- */
+
+/* Card style. It is applyed to cards from publication*/
+.publicationCard{
+    width: 350px;
+    height: 420px;
+    margin: 50px;
+    border: solid #e6ee9c 1px;
+    box-shadow: 5px 5px 2px #b3bc6d;
+} 
+
+.publicationTitle{
+    text-align: center;
+    height: 200px;
+}
+
+.publicationCartDescription{
+    text-align: justify;
+    height: 120px;
+}
+
+.btnDiv{
+    text-align: center;
+    height: 90px;
+}
+/* ---------End of publication cards style -------------- */
 
 /* It is applyed to all links */
 a{
@@ -127,4 +160,7 @@ button:hover{
     width: 50px;
     height: auto;
     margin-left: 10px;
+}
+.experienceDescription{
+    padding-top: 50px;
 }
