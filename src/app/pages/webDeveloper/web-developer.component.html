@@ -6,9 +6,9 @@
         </div>
         <div class="col-md" id="description">
           <div id="person-information">
-            <h1 class="text-center" id="name">Bárbara Nunes</h1>
-            <h4 class="text-center" id="title">{{myTitle}}</h4>
-            <p id="me" class="text-justify">
+            <h1 id="name">Bárbara Nunes</h1>
+            <h4 id="title">{{myTitle}}</h4>
+            <p id="me">
               {{aboutMe}}
             </p>
           </div>        
@@ -18,18 +18,13 @@
 
     <div class="row" id="information">
         <mat-tab-group animationDuration="0ms" mat-align-tabs="center">
-            <mat-tab label="Education" *ngFor="let education of datajason.academicEducation;">
-                <!-- <h5>{{education.degree}}{{education.studyArea}}</h5>
-                <a href="{{education.institutionLink}}">{{education.institution}}</a>
-                <p>{{education.start}}-{{education.end}}</p>
-                <p>{{education.description}}</p> -->
-
+            <mat-tab label="Education" *ngFor="let education of academicEducation;">
                 <div class="row">
                   <div class="col-md-4" *ngFor="let education of datajason.academicEducation;">
                     <mat-card class="institutionCard">
                       <mat-card-header>
                         <div class="title">
-                          <mat-card-title>{{education.degree}} {{education.studyArea}}</mat-card-title>
+                          <mat-card-title>{{education.degree}}{{education.studyArea}}</mat-card-title>
                         </div>
                       </mat-card-header>
                       <div class="logoImage">
@@ -51,7 +46,29 @@
                   </div>
                 </div>
             </mat-tab>
-            <mat-tab label="Experiences"></mat-tab>
+            <mat-tab label="Experiences">
+              <div id="experienceMessage" *ngIf="experiences == 0">
+                <h4>Looking for the first job as Full Stack Developer</h4>
+                <mat-icon id="searchIcon">search</mat-icon>
+              </div>
+              <div class="row" *ngFor="let experience of experiences;">
+                <div class="col-sm-1" class="divDatails">
+                  <div class="square"></div>              
+                </div>
+                <div class="col-sm-1 experienceDescription">
+                  <a href="{{experience.institutionLink}}">
+                    <img class="experienceLogo" src="{{experience.logo}}" alt="logo">
+                  </a>
+                </div>
+                <div class="col-md-6 experienceDescription">
+                  <h6>{{experience.responsibility}} at {{experience.company}}</h6>
+                  <p class="duration">Started in {{experience.start}} - Finished in {{experience.end}}</p>
+                  <ul *ngFor="let task of experience.tasks">                
+                    <li>{{task}}</li>
+                  </ul>
+                </div>              
+              </div>
+            </mat-tab>
             <mat-tab label="Skils"></mat-tab>
             <mat-tab label="Projects"></mat-tab>
             <mat-tab label="Contact Me"></mat-tab>
