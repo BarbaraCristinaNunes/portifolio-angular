@@ -62,22 +62,21 @@
                             "languages":[
                                 {
                                     "language": "Portugues", 
-                                    "status": "Native"
+                                    "status": "Native",
+                                    "percentage": 100
                                 },
                                 {
                                     "language": "English",
-                                    "status": "Intermediate level"                                    
-                                },
-                                {
-                                    "language": "Spanish",
-                                    "status": "Basic"
+                                    "status": "Intermediate level",
+                                    "percentage": 60                                    
                                 },
                                 {
                                     "language": "Dutch",
-                                    "status": "Basic"
+                                    "status": "Basic level",
+                                    "percentage": 20
                                 }
                             ],
-                            "softSkills":[
+                            "technicalSkills":[
                                 "People Management",
                                 "Project Management",
                                 "Academic Research",
@@ -86,7 +85,10 @@
                                 "Ecology",
                                 "Environmental Consulting",
                                 "Plant Ecology",
-                                "Plant Identification"
+                                "Plant Identification",
+                                "Plant Insect Interaction",
+                                "Statistic",
+                                "RAPELD Method"
                             ]                  
                         }
                     ],
@@ -209,57 +211,75 @@
                         "img": "../assets/img/profile/biolgist.jpg"
                     },
                     "experiences":[],
-                    "skils":[
+                    "skills":[
                         {
                             "languages":[
                                 {
                                     "language": "Portugues", 
-                                    "status": "Native"
+                                    "status": "Native",
+                                    "percentage": 100
                                 },
                                 {
                                     "language": "English",
-                                    "status": "Intermediate level"                                    
-                                },
-                                {
-                                    "language": "Spanish",
-                                    "status": "basic"
+                                    "status": "Intermediate level",
+                                    "percentage": 60                                    
                                 },
                                 {
                                     "language": "Dutch",
-                                    "status": "basic"
+                                    "status": "Basic level",
+                                    "percentage": 20
                                 }
                             ],
-                            "programingLanguages":[
+                            "technicalSkills":[
                                 {
-                                    "language": "HTML",
-                                    "status": ""
+                                    "skill": "HTML",
+                                    "status": "",
+                                    "imgage": "../assets/img/skills/html.png"
                                 },
                                 {
-                                    "language": "JavaScript",
-                                    "status": ""                                    
+                                    "skill": "JavaScript",
+                                    "status": "",
+                                    "imgage": "../assets/img/skills/javascript.png"                                    
                                 },
                                 {
-                                    "language": "CSS",
-                                    "status": ""                                
+                                    "skill": "CSS",
+                                    "status": "",
+                                    "imgage": "../assets/img/skills/css.png"                                
                                 },
                                 {
-                                    "language": "PHP",
-                                    "status": ""
-                                }
-                            ],
-                            "frameworks":[
+                                    "skill": "PHP",
+                                    "status": "",
+                                    "imgage": "../assets/img/skills/php.png"
+                                },
                                 {
-                                    "angular": "Angular"
-                                }
-                            ],
-                            "libraries":[
+                                    "skill": "Symfony",
+                                    "status": "",
+                                    "imgage": "../assets/img/skills/symfony.png"
+                                },
                                 {
-                                    "bootstrap": "Bootstrap"
-                                }
-                            ],
-                            "designLanguages":[
+                                    "skill": "Angular",
+                                    "status": "",
+                                    "imgage": "../assets/img/skills/angular.png"
+                                },
                                 {
-                                    "materialDesign": "Material Desing"
+                                    "skill": "Bootstrap",
+                                    "status": "",
+                                    "imgage": "../assets/img/skills/bootstrap.png"
+                                },
+                                {
+                                    "skill": "Material Desing",
+                                    "status": "",
+                                    "imgage": "../assets/img/skills/material-desing.png"
+                                },
+                                {
+                                    "skill": "MySQL",
+                                    "status": "",
+                                    "imgage": "../assets/img/skills/mysql.png"
+                                },
+                                {
+                                    "skill": "Git",
+                                    "status": "",
+                                    "imgage": "../assets/img/skills/git.png"
                                 }
                             ]                  
                         }
