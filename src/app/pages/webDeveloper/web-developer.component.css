@@ -1,3 +1,4 @@
+/* All divs from the project are into container */
 .container{
     right: 115px;
     top: 63px;
@@ -6,6 +7,7 @@
     z-index: 2;
 }
 
+/* Personal description style */
 #profile-img{
     width: 266px;
     height: 255px;
@@ -56,11 +58,6 @@
     padding-top: 50px;
 }
 
-a{
-    color: #cb9b8c;
-    text-decoration: none;
-}
-
 /* Card style. It is applyed to cards from education*/
 .institutionCard{
     width: 350px;
@@ -100,10 +97,8 @@ a{
     height: 90px;
 }
 /* ---------End of education cards style -------------- */
-.duration{
-    font-size: smaller;
-}
 
+/* style of experience part */
 /* divDatails and square are responsible to create a line and a square in the first collumn from experiences part */
 .divDatails{
     width: 10px;
@@ -125,6 +120,8 @@ a{
 .experienceDescription{
     padding-top: 50px;
 }
+
+/* It is used when I don't have any experience to show */
 #experienceMessage{
     text-align: center;
     padding-top: 50px;
@@ -134,4 +131,33 @@ a{
     padding-top: 30px;
     font-size: 250px;   
     margin-left: -200px;
+}
+/* end of experience part style*/
+
+/* Style of skills part */
+.skills{
+    text-align: center;
+    padding-top: 30px;
+}
+.skillsBox{
+    padding-top: 65px;
+}
+.logoSkills{
+    width: auto;
+    height: 100px;
+}
+.skillProgress{
+    background-image: linear-gradient(to right, #ffffee, #ffccbc, #cb9b8c);
+    border: solid #ffccbc 2px;
+}
+/* End of skills part style*/
+
+/* It is applyed to all dates */
+.duration{
+    font-size: smaller;
+}
+/* It is applyed to all links */
+a{
+    color: #cb9b8c;
+    text-decoration: none;
 }
