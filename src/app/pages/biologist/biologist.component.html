@@ -6,9 +6,9 @@
       </div>
       <div class="col-md" id="description">
         <div id="person-information">
-          <h1 class="text-center" id="name">Bárbara Nunes</h1>
-          <h4 class="text-center" id="title">{{myTitle}}</h4>
-          <p id="me" class="text-justify">
+          <h1 id="name">Bárbara Nunes</h1>
+          <h4 id="title">{{myTitle}}</h4>
+          <p id="me">
             {{aboutMe}}
           </p>
         </div>        
@@ -21,7 +21,7 @@
       <!-- Information about education -->
         <mat-tab label="Education">
           <div class="row">
-            <div class="col-md-4" *ngFor="let education of datajason.academicEducation;">
+            <div class="col-md-4" *ngFor="let education of academicEducation;">
               <mat-card class="institutionCard">
                 <mat-card-header>
                   <div class="title">
@@ -49,7 +49,7 @@
         </mat-tab>
         <!-- My experiences -->
         <mat-tab label="Experiences">
-          <div class="row" *ngFor="let experience of datajason.experiences;">
+          <div class="row" *ngFor="let experience of experiences;">
             <div class="col-sm-1" class="divDatails">
               <div class="square"></div>              
             </div>
