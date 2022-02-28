@@ -69,7 +69,35 @@
                 </div>              
               </div>
             </mat-tab>
-            <mat-tab label="Skils"></mat-tab>
+            <mat-tab label="Skills">
+              <div class="row">
+                <div class="row skills">
+                  <h2>Technical Skills</h2>
+                </div>
+                <div class="col-md-3 skillsBox" *ngFor="let tecnhicalSkill of skills[0].technicalSkills">
+                  <h6>{{tecnhicalSkill.skill}}</h6>
+                  <img class="logoSkills" src="{{tecnhicalSkill.imgage}}" alt="{{tecnhicalSkill.skill}} logo">
+                </div>
+              </div>
+              <div class="row">
+                <div class="row skills">
+                  <h2>Languages</h2>
+                </div>
+                <div class="row" *ngFor="let language of skills[0].languages">
+                  <div class="col-md-2">
+                  <h5> {{language.language}} </h5>
+                  </div>
+                  <div class="col-md-2">
+                  <p>{{language.status}}</p>
+                  </div>
+                  <div class="col-md-8">
+                  <div class="progress" style="height: 20px;">
+                    <div class="progress-bar skillProgress" role="progressbar" style="width: {{language.percentage}}%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                  </div>
+                </div>
+              </div>                
+            </mat-tab>
             <mat-tab label="Projects"></mat-tab>
             <mat-tab label="Contact Me"></mat-tab>
           </mat-tab-group>
