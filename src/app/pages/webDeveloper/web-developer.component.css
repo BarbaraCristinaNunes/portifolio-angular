@@ -61,7 +61,7 @@
 /* Card style. It is applyed to cards from education*/
 .institutionCard{
     width: 350px;
-    height: 600px;
+    height: 525px;
     margin: 50px;
     border: solid #ffccbc 1px;
     box-shadow: 5px 5px 2px #cb9b8c;
@@ -74,7 +74,7 @@
 
 .logoImage{
     text-align: center;
-    height: 210px;
+    height: 180px;
 }
 
 .logo{
