@@ -15,7 +15,7 @@
                             "tasks": [
                                 "Team leader",
                                 "Collect of flora for the Project called Evaluation of Impacts and Monitoring of the Terrestrial Flora in Minas Gerais and Espírito Santo, Brazil, in affected areas for rupture of Fundão’s Dam up river Doce"
-                        ],
+                            ],
                             "logo": "../assets/img/experiences-logos/bicho-mato.png",
                             "institutionLink": "https://bichodomato.net.br/"
                         },
@@ -208,9 +208,7 @@
                     "profileImg":{            
                         "img": "../assets/img/profile/biolgist.jpg"
                     },
-                    "experiences":{
-        
-                    },
+                    "experiences":[],
                     "skils":[
                         {
                             "languages":[
