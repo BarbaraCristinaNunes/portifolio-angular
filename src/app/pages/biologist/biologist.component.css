@@ -37,17 +37,20 @@
 }
 
 #name{
+    text-align: center;
    padding-top: 10px;
    color: #00251a;
 }
 
 #title{
+    text-align: center;
     padding-top: 5px;
     padding-bottom: 15px;
     color: #00251a;
 }
 
 #me{
+    text-align: justify;
     padding-left: 15px;
     padding-right: 15px;
     color: #00251a;
