@@ -33,17 +33,20 @@
 }
 
 #name{
+    text-align: center;
    padding-top: 10px;
    color: #1b0000;
 }
 
 #title{
+    text-align: center;
     padding-top: 5px;
     padding-bottom: 15px;
     color: #1b0000;
 }
 
 #me{
+    text-align: justify;
     padding-left: 15px;
     padding-right: 15px;
     color: #1b0000;
@@ -99,4 +102,36 @@ a{
 /* ---------End of education cards style -------------- */
 .duration{
     font-size: smaller;
+}
+
+/* divDatails and square are responsible to create a line and a square in the first collumn from experiences part */
+.divDatails{
+    width: 10px;
+    height: auto;
+    background-color: #cb9b8c;
+}
+.square{
+    width: 20px;
+    height: 20px;
+    margin-top: 65px;
+    background-color: #cb9b8c;
+    transform: rotate(45deg);
+}
+.experienceLogo{
+    width: 50px;
+    height: auto;
+    margin-left: 10px;
+}
+.experienceDescription{
+    padding-top: 50px;
+}
+#experienceMessage{
+    text-align: center;
+    padding-top: 50px;
+    color: #c75b39;
+}
+#searchIcon{
+    padding-top: 30px;
+    font-size: 250px;   
+    margin-left: -200px;
 }
