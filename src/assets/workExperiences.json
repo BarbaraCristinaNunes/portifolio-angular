@@ -1,344 +1,353 @@
 {
     "workExperiences":
-        {
-            "biologist":
-                {
-                    "profileImg":{            
-                        "img": "../assets/img/profile/biolgist.jpg"
+    {
+        "biologist":
+            {
+                "profileImg":{            
+                    "img": "../assets/img/profile/biolgist.jpg"
+                },
+                "experiences":[
+                    {
+                        "responsibility": "Environmental Analyst",
+                        "company": "Bicho do Mato Meio Ambiente",
+                        "start": "May 2018",
+                        "end": "Oct 2018",
+                        "tasks": [
+                            "Team leader",
+                            "Collect of flora for the Project called Evaluation of Impacts and Monitoring of the Terrestrial Flora in Minas Gerais and Espírito Santo, Brazil, in affected areas for rupture of Fundão’s Dam up river Doce"
+                        ],
+                        "logo": "../assets/img/experiences-logos/bicho-mato.png",
+                        "institutionLink": "https://bichodomato.net.br/"
                     },
-                    "experiences":[
-                        {
-                            "responsibility": "Environmental Analyst",
-                            "company": "Bicho do Mato Meio Ambiente",
-                            "start": "May 2018",
-                            "end": "Oct 2018",
-                            "tasks": [
-                                "Team leader",
-                                "Collect of flora for the Project called Evaluation of Impacts and Monitoring of the Terrestrial Flora in Minas Gerais and Espírito Santo, Brazil, in affected areas for rupture of Fundão’s Dam up river Doce"
-                            ],
-                            "logo": "../assets/img/experiences-logos/bicho-mato.png",
-                            "institutionLink": "https://bichodomato.net.br/"
-                        },
-                        {
-                            "responsibility": "Research Scholarship",
-                            "company": "Laboratory of Evolutionary Ecology and Biodiversity - Federal University of Minas Gerais",
-                            "start": "Aug 2014",
-                            "end": "Feb 2017",
-                            "tasks": [
-                                "Team leader", 
-                                "Collect and identification of flora and entomofauna from Cerrado (Brazilian biome)", 
-                                "Project and biological data management",
-                                "Write of technical report",
-                                "Coach of Biological Data Management Workshop"
-                            ],
-                            "logo": "../assets/img/experiences-logos/ufmg.png",
-                            "institutionLink": "https://ufmg.br/"
-                        },
-                        {
-                            "responsibility": "Intern",
-                            "company": "Laboratory of Insect Ecology - Federal University of Minas Gerais",
-                            "start": "Jan 2014",
-                            "end": "Aug 2014",
-                            "tasks": [
-                                "Identification of herbivore insects from Mata Atlântica (Brazilian biome) and field assistant in studies about ants"
-                            ],
-                            "logo": "../assets/img/experiences-logos/ufmg.png",
-                            "institutionLink": "https://ufmg.br/"
-                        },
-                        {
-                            "responsibility": "Intern",
-                            "company": "Laboratory of Microorganism Genetics - Federal University of Minas Gerais",
-                            "start": "Dec 2012",
-                            "end": "Aug 2013",
-                            "tasks": [
-                                "Assistant on project about bacterial resistance of antibiotic."
-                            ],
-                            "logo": "../assets/img/experiences-logos/ufmg.png",
-                            "institutionLink": "https://ufmg.br/"
-                        }
-                    ],
-                    "skills":[
-                        {
-                            "languages":[
-                                {
-                                    "language": "Portugues", 
-                                    "status": "Native",
-                                    "percentage": 100
-                                },
-                                {
-                                    "language": "English",
-                                    "status": "Intermediate level",
-                                    "percentage": 60                                    
-                                },
-                                {
-                                    "language": "Dutch",
-                                    "status": "Basic level",
-                                    "percentage": 20
-                                }
-                            ],
-                            "technicalSkills":[
-                                "People Management",
-                                "Project Management",
-                                "Academic Research",
-                                "Report Writing",
-                                "Scientific Writing",
-                                "Ecology",
-                                "Environmental Consulting",
-                                "Plant Ecology",
-                                "Plant Identification",
-                                "Plant Insect Interaction",
-                                "Statistic",
-                                "RAPELD Method"
-                            ]                  
-                        }
-                    ],
-                    "academicEducation":[                        
-                        {
-                            "studyArea": "Ecology, Conservation and Wildlife Management",
-                            "institution": "Federal University of Minas Gerais",
-                            "start": 2017,
-                            "end": 2019,
-                            "thesis": "Conservação de espécies da flora brasileira ameaçada de extinção: estudo de caso sobre cactáceas brasileiras",
-                            "link": "https://repositorio.ufmg.br/bitstream/1843/33844/1/PPGEcologiaConsManVidaSilvestre_BarbaraCristinaNunes_DissertacaoMESTRADO.pdf",
-                            "institutionLink": "https://www.ufmg.br/pos/ecologia/",
-                            "degree": "Master",
-                            "description": "",
-                            "logo": "../assets/img/educations-logos/ecmvs.png"
-                        },                                
-                        {
-                            "studyArea": "Conservation Biology",
-                            "institution": "Centro Universitário UNA",
-                            "start": 2015,
-                            "end": 2016,
-                            "thesis": "Uso da flora como potencial indicador biótico da efetividade do PARNA Serra do Cipó, Minas Gerais",
-                            "link": "",
-                            "institutionLink": "https://www.una.br/",
-                            "degree": "Specializtion",
-                            "description": "",
-                            "logo": "../assets/img/educations-logos/una.png"
-                        },
-                        {
-                            "studyArea": "Biology",
-                            "institution": "Centro Universitário UNA",
-                            "start": 2011,
-                            "end": 2014,
-                            "thesis": "Riqueza de galhas induzidas por insetos ao longo de um gradiente altitudinal na Serra do Cipó, MG, Brasil",
-                            "link": "",
-                            "institutionLink": "https://www.una.br/",
-                            "degree": "Bachelor",
-                            "description": "",
-                            "logo": "../assets/img/educations-logos/una.png"
-                        }
-                    ],
-                    "publications":[
-                        {
-                            "type": "Paper",
-                            "title": "Morphological and histological characterization of extrafloral nectaries induced by Coelocephalapion galls on Croton antisyphiliticus in the Brazilian Cerrado",
-                            "authors": "FERNANDES, G.W., AGUIRRE-JAIMES, A., CONTRERAS-VARELA, X., COCOLETZI, E., SOUSA, W.O., ARAUJO, L. NUNES, B., ANGELES, G., QUESADA, M.",
-                            "paper": "Flora",
-                            "year": "2021",
-                            "extraInfo": "v. 274",
-                            "link": "https://www.sciencedirect.com/science/article/abs/pii/S0367253020302577?via%3Dihub"
-                        },
-                        {
-                            "type": "Paper",
-                            "title": "CO2 Fertilizer Effect on Growth, Polyphenols, and Endophytes in Two Baccharis Species",
-                            "authors": "OKI, Y., ARANTES-GARCIA, L., COSTA, M.B.M., NUNES, B.C., SILVEIRA, B.R., GÉLVEZ-ZÚÑIGA, I. FRANCO, A. FERNANDES, G.W.",
-                            "paper": "Brazilian Aechives of Biology and Technology",
-                            "year": "2020",
-                            "extraInfo": "v. 63, p. 2-10",
-                            "link": "https://www.scielo.br/j/babt/a/wBzqBNsXGk9MHhFgmBLzfps/?lang=en"
-                        },
-                        {
-                            "type": "Paper",
-                            "title": "Educação Ambiental: sensibilização sobre a importância da conservação de espécies do Cerrado",
-                            "authors": "GOMES, M. R. ; NOGUEIRA, J. M. ; AMORIM, S. L. A. ; RODRIGUES, I. P. S. ; MARQUES, P. H. D. ; XAVIER, E. R. S. ; NUNES, B. ; RODRIGUES, R. N. ; PINTO, L. C. L. ; DRUMOND, M. A",
-                            "paper": "MG. Biota",
-                            "year": "2018",
-                            "extraInfo": "v. 11, p. 04-19",
-                            "link": ""
-                        },
-                        {   "type": "Abstract",
-                            "title": "Caracterização das galhas induzidas por insetos ao longo de um gradiente altitudinalna Serra do Cipó, MG, Brasil",
-                            "authors": "SANTOS, L., NUNES, B., LUZ, G.R, FERNANDES, G.W.",
-                            "year": "2015",
-                            "event": "XII Congresso de Ecologia do Brasil",
-                            "institution": "Society of Ecology of Brazil",
-                            "link": "http://www.seb-ecologia.org.br/revistas/indexar/anais/xiiceb/pdf/391.pdf",
-                            "institutionLink": ""
-                        },
-                        {
-                            "type": "Abstract",
-                            "title": "Influência da riqueza de plantas e do gradiente altitudinal na riqueza de insetos galhadores em campo rupestre da Serra do Cipó, Minas Gerais",
-                            "authors": "NUNES, B., SANTOS, L., LUZ, G.R., FERNANDES, G.W.",
-                            "year": "2015",
-                            "event": "XII Congresso de Ecologia do Brasil",
-                            "institution": "Society of Ecology of Brazil",
-                            "link": "http://www.seb-ecologia.org.br/revistas/indexar/anais/xiiceb/pdf/776.pdf",
-                            "institutionLink": ""
-                        },
-                        {
-                            "type": "Abstract",
-                            "title": "Connectivity and size do not affect insects in forest fragment island",
-                            "authors": "NUNES, B.C., NOLASCO, V.N., REIS, L.E.M., NEVES, F.S.",
-                            "year": "2014",
-                            "event": "I Simpósio Internacional de Ecologia e Conservação",
-                            "institution": "",
-                            "link": "",
-                            "institutionLink": ""
-                        }
-                    ],
-                    "projects":[
-                        {
-                            "title": "Bioindicadores para avaliação do efeito de mudanças climáticas globais em montanhas tropicais",
-                            "subproject": "",
-                            "start": "2014",
-                            "end": "2016"
-        
-                        },
-                        {
-                            "title": "Geografia da biodiversidade, funcionamento e sustentabilidade no cerrado? Rede ComCerrado/ Título da proposta do projeto associado: Ecossistemas extremos do cerrado: a biodiversidade e funcionalidade nos campos rupestres",
-                            "subproject": "",
-                            "start": "2016",
-                            "end": "2017"
-                        }
-                    ]
-                    
-                },
-            "webDeveloper":
-                {
-                    "profileImg":{            
-                        "img": "../assets/img/profile/biolgist.jpg"
+                    {
+                        "responsibility": "Research Scholarship",
+                        "company": "Laboratory of Evolutionary Ecology and Biodiversity - Federal University of Minas Gerais",
+                        "start": "Aug 2014",
+                        "end": "Feb 2017",
+                        "tasks": [
+                            "Team leader", 
+                            "Collect and identification of flora and entomofauna from Cerrado (Brazilian biome)", 
+                            "Project and biological data management",
+                            "Write of technical report",
+                            "Coach of Biological Data Management Workshop"
+                        ],
+                        "logo": "../assets/img/experiences-logos/ufmg.png",
+                        "institutionLink": "https://ufmg.br/"
                     },
-                    "experiences":[],
-                    "skills":[
-                        {
-                            "languages":[
-                                {
-                                    "language": "Portugues", 
-                                    "status": "Native",
-                                    "percentage": 100
-                                },
-                                {
-                                    "language": "English",
-                                    "status": "Intermediate level",
-                                    "percentage": 60                                    
-                                },
-                                {
-                                    "language": "Dutch",
-                                    "status": "Basic level",
-                                    "percentage": 20
-                                }
-                            ],
-                            "technicalSkills":[
-                                {
-                                    "skill": "HTML",
-                                    "status": "",
-                                    "imgage": "../assets/img/skills/html.png"
-                                },
-                                {
-                                    "skill": "JavaScript",
-                                    "status": "",
-                                    "imgage": "../assets/img/skills/javascript.png"                                    
-                                },
-                                {
-                                    "skill": "CSS",
-                                    "status": "",
-                                    "imgage": "../assets/img/skills/css.png"                                
-                                },
-                                {
-                                    "skill": "PHP",
-                                    "status": "",
-                                    "imgage": "../assets/img/skills/php.png"
-                                },
-                                {
-                                    "skill": "Symfony",
-                                    "status": "",
-                                    "imgage": "../assets/img/skills/symfony.png"
-                                },
-                                {
-                                    "skill": "Angular",
-                                    "status": "",
-                                    "imgage": "../assets/img/skills/angular.png"
-                                },
-                                {
-                                    "skill": "Bootstrap",
-                                    "status": "",
-                                    "imgage": "../assets/img/skills/bootstrap.png"
-                                },
-                                {
-                                    "skill": "Material Desing",
-                                    "status": "",
-                                    "imgage": "../assets/img/skills/material-desing.png"
-                                },
-                                {
-                                    "skill": "MySQL",
-                                    "status": "",
-                                    "imgage": "../assets/img/skills/mysql.png"
-                                },
-                                {
-                                    "skill": "Git",
-                                    "status": "",
-                                    "imgage": "../assets/img/skills/git.png"
-                                }
-                            ]                  
-                        }
-                    ],
-                    "academicEducation":[                        
-                        {
-                            "studyArea": "Web Junior Developer",
-                            "institution": "Becode",
-                            "start": "October/2021",
-                            "end": "April/2022",
-                            "thesis": "",
-                            "link": "",
-                            "institutionLink": "https://becode.org/learn/junior-web-developer/",
-                            "degree": "",
-                            "description": "Full time training with duration of 780 hours. During the training I have developed projects in JavaScript, PHP, Angular and Symfony where I could developed coding skills, consolidate the concepts of OOP and learn about MVC architecture, SOLID concepts and MySQL.",
-                            "logo": "../assets/img/educations-logos/becode.png"
-                        }                              
-                    ],
-                    "publications":[],
-                    "projects":[
-                        {
-                            "title": "",
-                            "objective": "",
-                            "start": "",
-                            "end": "",
-                            "link": ""
-                        },
-                        {
-                            "title": "",
-                            "objective": "",
-                            "start": "",
-                            "end": "",
-                            "link": ""
-                        }
-                    ]
-                },
-            "contact":[
-                {
-                    "linkedin": "https://www.linkedin.com/in/b%C3%A1rbara-cristina-nunes-40b57063/"
-                },
-                {
-                    "facebook": "https://www.facebook.com/barbara.nunes.7505/"
-                },
-                {
-                    "instagram": "babi.cnues"
-                },
-                {
-                    "github": "https://github.com/BarbaraCristinaNunes"
-                },
-                {
-                    "biologistMail": "barbara.n.bio@gmail.com"
-                },
-                {
-                    "webDeveloperMain": "nunes.barbaracc@gmail.com"
-                },
-                {
-                    "phone": "+32456132679"
-                }
-            ]
-        }
+                    {
+                        "responsibility": "Intern",
+                        "company": "Laboratory of Insect Ecology - Federal University of Minas Gerais",
+                        "start": "Jan 2014",
+                        "end": "Aug 2014",
+                        "tasks": [
+                            "Identification of herbivore insects from Mata Atlântica (Brazilian biome) and field assistant in studies about ants"
+                        ],
+                        "logo": "../assets/img/experiences-logos/ufmg.png",
+                        "institutionLink": "https://ufmg.br/"
+                    },
+                    {
+                        "responsibility": "Intern",
+                        "company": "Laboratory of Microorganism Genetics - Federal University of Minas Gerais",
+                        "start": "Dec 2012",
+                        "end": "Aug 2013",
+                        "tasks": [
+                            "Assistant on project about bacterial resistance of antibiotic."
+                        ],
+                        "logo": "../assets/img/experiences-logos/ufmg.png",
+                        "institutionLink": "https://ufmg.br/"
+                    }
+                ],
+                "skills":[
+                    {
+                        "languages":[
+                            {
+                                "language": "Portugues", 
+                                "status": "Native",
+                                "percentage": 100
+                            },
+                            {
+                                "language": "English",
+                                "status": "Intermediate level",
+                                "percentage": 60                                    
+                            },
+                            {
+                                "language": "Dutch",
+                                "status": "Basic level",
+                                "percentage": 20
+                            }
+                        ],
+                        "technicalSkills":[
+                            "People Management",
+                            "Project Management",
+                            "Academic Research",
+                            "Report Writing",
+                            "Scientific Writing",
+                            "Ecology",
+                            "Environmental Consulting",
+                            "Plant Ecology",
+                            "Plant Identification",
+                            "Plant Insect Interaction",
+                            "Statistic",
+                            "RAPELD Method"
+                        ]                  
+                    }
+                ],
+                "academicEducation":[                        
+                    {
+                        "studyArea": "Ecology, Conservation and Wildlife Management",
+                        "institution": "Federal University of Minas Gerais",
+                        "start": 2017,
+                        "end": 2019,
+                        "thesis": "Conservação de espécies da flora brasileira ameaçada de extinção: estudo de caso sobre cactáceas brasileiras",
+                        "link": "https://repositorio.ufmg.br/bitstream/1843/33844/1/PPGEcologiaConsManVidaSilvestre_BarbaraCristinaNunes_DissertacaoMESTRADO.pdf",
+                        "institutionLink": "https://www.ufmg.br/pos/ecologia/",
+                        "degree": "Master",
+                        "description": "",
+                        "logo": "../assets/img/educations-logos/ecmvs.png"
+                    },                                
+                    {
+                        "studyArea": "Conservation Biology",
+                        "institution": "Centro Universitário UNA",
+                        "start": 2015,
+                        "end": 2016,
+                        "thesis": "Uso da flora como potencial indicador biótico da efetividade do PARNA Serra do Cipó, Minas Gerais",
+                        "link": "",
+                        "institutionLink": "https://www.una.br/",
+                        "degree": "Specializtion",
+                        "description": "",
+                        "logo": "../assets/img/educations-logos/una.png"
+                    },
+                    {
+                        "studyArea": "Biology",
+                        "institution": "Centro Universitário UNA",
+                        "start": 2011,
+                        "end": 2014,
+                        "thesis": "Riqueza de galhas induzidas por insetos ao longo de um gradiente altitudinal na Serra do Cipó, MG, Brasil",
+                        "link": "",
+                        "institutionLink": "https://www.una.br/",
+                        "degree": "Bachelor",
+                        "description": "",
+                        "logo": "../assets/img/educations-logos/una.png"
+                    }
+                ],
+                "publications":[
+                    {
+                        "type": "Paper",
+                        "title": "Morphological and histological characterization of extrafloral nectaries induced by Coelocephalapion galls on Croton antisyphiliticus in the Brazilian Cerrado",
+                        "authors": "FERNANDES, G.W., AGUIRRE-JAIMES, A., CONTRERAS-VARELA, X., COCOLETZI, E., SOUSA, W.O., ARAUJO, L. NUNES, B., ANGELES, G., QUESADA, M.",
+                        "paper": "Flora",
+                        "year": "2021",
+                        "extraInfo": "v. 274",
+                        "link": "https://www.sciencedirect.com/science/article/abs/pii/S0367253020302577?via%3Dihub"
+                    },
+                    {
+                        "type": "Paper",
+                        "title": "CO2 Fertilizer Effect on Growth, Polyphenols, and Endophytes in Two Baccharis Species",
+                        "authors": "OKI, Y., ARANTES-GARCIA, L., COSTA, M.B.M., NUNES, B.C., SILVEIRA, B.R., GÉLVEZ-ZÚÑIGA, I. FRANCO, A. FERNANDES, G.W.",
+                        "paper": "Brazilian Aechives of Biology and Technology",
+                        "year": "2020",
+                        "extraInfo": "v. 63, p. 2-10",
+                        "link": "https://www.scielo.br/j/babt/a/wBzqBNsXGk9MHhFgmBLzfps/?lang=en"
+                    },
+                    {
+                        "type": "Paper",
+                        "title": "Educação Ambiental: sensibilização sobre a importância da conservação de espécies do Cerrado",
+                        "authors": "GOMES, M. R. ; NOGUEIRA, J. M. ; AMORIM, S. L. A. ; RODRIGUES, I. P. S. ; MARQUES, P. H. D. ; XAVIER, E. R. S. ; NUNES, B. ; RODRIGUES, R. N. ; PINTO, L. C. L. ; DRUMOND, M. A",
+                        "paper": "MG. Biota",
+                        "year": "2018",
+                        "extraInfo": "v. 11, p. 04-19",
+                        "link": ""
+                    },
+                    {   "type": "Abstract",
+                        "title": "Caracterização das galhas induzidas por insetos ao longo de um gradiente altitudinalna Serra do Cipó, MG, Brasil",
+                        "authors": "SANTOS, L., NUNES, B., LUZ, G.R, FERNANDES, G.W.",
+                        "year": "2015",
+                        "event": "XII Congresso de Ecologia do Brasil",
+                        "institution": "Society of Ecology of Brazil",
+                        "link": "http://www.seb-ecologia.org.br/revistas/indexar/anais/xiiceb/pdf/391.pdf",
+                        "institutionLink": ""
+                    },
+                    {
+                        "type": "Abstract",
+                        "title": "Influência da riqueza de plantas e do gradiente altitudinal na riqueza de insetos galhadores em campo rupestre da Serra do Cipó, Minas Gerais",
+                        "authors": "NUNES, B., SANTOS, L., LUZ, G.R., FERNANDES, G.W.",
+                        "year": "2015",
+                        "event": "XII Congresso de Ecologia do Brasil",
+                        "institution": "Society of Ecology of Brazil",
+                        "link": "http://www.seb-ecologia.org.br/revistas/indexar/anais/xiiceb/pdf/776.pdf",
+                        "institutionLink": ""
+                    },
+                    {
+                        "type": "Abstract",
+                        "title": "Connectivity and size do not affect insects in forest fragment island",
+                        "authors": "NUNES, B.C., NOLASCO, V.N., REIS, L.E.M., NEVES, F.S.",
+                        "year": "2014",
+                        "event": "I Simpósio Internacional de Ecologia e Conservação",
+                        "institution": "",
+                        "link": "",
+                        "institutionLink": ""
+                    }
+                ],
+                "projects":[
+                    {
+                        "title": "Bioindicadores para avaliação do efeito de mudanças climáticas globais em montanhas tropicais",
+                        "subproject": "",
+                        "start": "2014",
+                        "end": "2016"
     
+                    },
+                    {
+                        "title": "Geografia da biodiversidade, funcionamento e sustentabilidade no cerrado? Rede ComCerrado/ Título da proposta do projeto associado: Ecossistemas extremos do cerrado: a biodiversidade e funcionalidade nos campos rupestres",
+                        "subproject": "",
+                        "start": "2016",
+                        "end": "2017"
+                    }
+                ]
+                
+            },
+        "webDeveloper":
+            {
+                "profileImg":{            
+                    "img": "../assets/img/profile/biolgist.jpg"
+                },
+                "experiences":[],
+                "skills":[
+                    {
+                        "languages":[
+                            {
+                                "language": "Portugues", 
+                                "status": "Native",
+                                "percentage": 100
+                            },
+                            {
+                                "language": "English",
+                                "status": "Intermediate level",
+                                "percentage": 60                                    
+                            },
+                            {
+                                "language": "Dutch",
+                                "status": "Basic level",
+                                "percentage": 20
+                            }
+                        ],
+                        "technicalSkills":[
+                            {
+                                "skill": "HTML",
+                                "status": "",
+                                "imgage": "../assets/img/skills/html.png"
+                            },
+                            {
+                                "skill": "JavaScript",
+                                "status": "",
+                                "imgage": "../assets/img/skills/javascript.png"                                    
+                            },
+                            {
+                                "skill": "CSS",
+                                "status": "",
+                                "imgage": "../assets/img/skills/css.png"                                
+                            },
+                            {
+                                "skill": "PHP",
+                                "status": "",
+                                "imgage": "../assets/img/skills/php.png"
+                            },
+                            {
+                                "skill": "Symfony",
+                                "status": "",
+                                "imgage": "../assets/img/skills/symfony.png"
+                            },
+                            {
+                                "skill": "Angular",
+                                "status": "",
+                                "imgage": "../assets/img/skills/angular.png"
+                            },
+                            {
+                                "skill": "Bootstrap",
+                                "status": "",
+                                "imgage": "../assets/img/skills/bootstrap.png"
+                            },
+                            {
+                                "skill": "Material Desing",
+                                "status": "",
+                                "imgage": "../assets/img/skills/material-desing.png"
+                            },
+                            {
+                                "skill": "MySQL",
+                                "status": "",
+                                "imgage": "../assets/img/skills/mysql.png"
+                            },
+                            {
+                                "skill": "Git",
+                                "status": "",
+                                "imgage": "../assets/img/skills/git.png"
+                            }
+                        ]                  
+                    }
+                ],
+                "academicEducation":[                        
+                    {
+                        "studyArea": "Web Junior Developer",
+                        "institution": "Becode",
+                        "start": "October/2021",
+                        "end": "April/2022",
+                        "thesis": "",
+                        "link": "",
+                        "institutionLink": "https://becode.org/learn/junior-web-developer/",
+                        "degree": "",
+                        "description": "Full time training with duration of 780 hours. During the training I have developed projects in JavaScript, PHP, Angular and Symfony where I could developed coding skills, consolidate the concepts of OOP and learn about MVC architecture, SOLID concepts and MySQL.",
+                        "logo": "../assets/img/educations-logos/becode.png"
+                    }                              
+                ],
+                "publications":[],
+                "projects":[
+                    {
+                        "title": "",
+                        "objective": "",
+                        "start": "",
+                        "end": "",
+                        "link": ""
+                    },
+                    {
+                        "title": "",
+                        "objective": "",
+                        "start": "",
+                        "end": "",
+                        "link": ""
+                    }
+                ]
+            },
+        "contacts":{
+            "socialMidia":[
+                {
+                    "name": "babi.cnues",
+                    "logo": "../assets/img/contacts-logo/instagram.png",
+                    "link": "https://www.instagram.com/babi.cnunes/"
+                },
+                {
+                    "name": "Barbara Cristina Nunes",
+                    "logo": "../assets/img/contacts-logo/linkedin.png",
+                    "link": "https://www.linkedin.com/in/barbara-cristina-nunes-40b57063/"
+                },
+                {
+                    "name": "Barbara Cristina Nunes",
+                    "logo": "../assets/img/contacts-logo/lattes.png",
+                    "link": "http://lattes.cnpq.br/2717979550750345"
+                },
+                
+                {
+                    "name": "Barbara Cristina Nunes",
+                    "logo": "../assets/img/contacts-logo/github.png",
+                    "link": "https://github.com/BarbaraCristinaNunes"
+                    
+                }
+            ],
+            "personalContacts":{
+                
+                "biologistMail": "barbara.n.bio@gmail.com",
+                "webDeveloperMain": "nunes.barbaracc@gmail.com",
+                "phone": "+32456132679",
+                "adress": "Dambruggestraat 343, Antwerp, 2060"                
+            }
+        }    
+    }
 }
