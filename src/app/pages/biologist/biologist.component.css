@@ -65,7 +65,7 @@
 /* Card style. It is applyed to cards from education*/
 .institutionCard{
     width: 350px;
-    height: 600px;
+    height: 525px;
     margin: 50px;
     border: solid #e6ee9c 1px;
     box-shadow: 5px 5px 2px #b3bc6d;
@@ -73,12 +73,12 @@
 
 .title{
     text-align: center;
-    height: 150px;
+    height: 120px;
 }
 
 .logoImage{
     text-align: center;
-    height: 210px;
+    height: 180px;
 }
 
 .logo{
@@ -127,24 +127,6 @@
 }
 /* ---------End of publication cards style -------------- */
 
-/* It is applyed to all links */
-a{
-    color: #a0af22;
-    
-    text-decoration: none;
-}
-/* It is applyes to all buttons */
-
-button:hover{
-    background-color: #ffffce;
-}
-
-/* It is applyed to all dates */
-
-.duration{
-    font-size: smaller;
-}
-
 /* divDatails and square are responsible to create a line and a square in the first collumn from experiences part */
 .divDatails{
     width: 10px;
@@ -166,4 +148,41 @@ button:hover{
 }
 .experienceDescription{
     padding-top: 50px;
+}
+/* end of experience part style*/
+
+/* Style of skills part */
+.skills{
+    padding-top: 30px;
+}
+.skillsBox{
+    text-align: center;
+    padding-top: 65px;
+}
+.logoSkills{
+    width: auto;
+    height: 100px;
+}
+.skillProgress{
+    background-image: linear-gradient(to right, #ffffce, #e6ee9c, #b3bc6d);
+    border: solid #e6ee9c 2px;
+}
+/* End of skills part style*/
+
+/* It is applyed to all links */
+a{
+    color: #a0af22;
+    
+    text-decoration: none;
+}
+/* It is applyes to all buttons */
+
+button:hover{
+    background-color: #ffffce;
+}
+
+/* It is applyed to all dates */
+
+.duration{
+    font-size: smaller;
 }
