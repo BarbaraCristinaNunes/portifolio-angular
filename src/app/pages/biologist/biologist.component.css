@@ -154,8 +154,9 @@
 /* Style of skills part */
 .skills{
     padding-top: 30px;
+    padding-bottom: 30px;
 }
-.skillsBox{
+.skills{
     text-align: center;
     padding-top: 65px;
 }
@@ -185,4 +186,15 @@ button:hover{
 
 .duration{
     font-size: smaller;
+}
+
+.mediaLogo{
+    width: 25px;
+    height: auto;
+}
+
+.publicationBox, .skillsBox, .experiencesBox, .educationBox{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 1300px;
 }
