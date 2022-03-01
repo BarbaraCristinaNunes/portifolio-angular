@@ -17,12 +17,14 @@ import {MatCardModule} from '@angular/material/card';
 import { RouterModule } from '@angular/router';
 import {HttpClientModule} from '@angular/common/http';
 import { CommonModule } from '@angular/common';
+import { ContactComponent } from './pages/contact/contact.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     BiologistComponent,
-    WebDeveloperComponent
+    WebDeveloperComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
