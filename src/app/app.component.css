@@ -13,7 +13,7 @@
     width: 100%;
 }
 .mat-toolbar{
-    background-image: linear-gradient(to right, #b3bc6d, #cb9b8c);
+    background-image: linear-gradient(to right, #b3bc6d5d, #cb9b8c79);
 }
 .container{
     right: 115px;
@@ -23,33 +23,43 @@
 }
 
 #biologist{
-    margin: 5px;
+    /* margin: 5px; */
     text-align: center;
-    width: 95%;
+    width: 100%;
     padding: 10px;
     background-color: #b3bc6d;
     color: #ffffce;
     font-size: x-large;
 }
 
-#biologist:focus{
+#biologist:focus, #biologist:hover{
     background-color: #a0af22;
 }
 
 #web-developer{
-    margin: 5px;
+    margin: 25px;
     text-align: center;
-    width: 95%;
+    width: 90%;
     padding: 10px;
     background-color: #cb9b8c;
     color: #ffffee;
     font-size: x-large;
 }
 
-#web-developer:focus{
+#web-developer:focus, #web-developer:hover{
     background-color: #c75b39;
 }
 
-#me{
+#contact{
+    margin-left: -20px;
+    text-align: center;
+    width: 110%;
+    padding: 10px;
     font-size: large;
+    background-color: #af4448;
+    color: #ffffe5;
+}
+
+#contact:focus, #contact:hover{
+    background-color: #ffa4a2;
 }
