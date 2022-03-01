@@ -15,13 +15,15 @@ export class WebDeveloperComponent implements OnInit {
     academicEducation : any;
     experiences : any;
     skills : any;
+    projects : any;
 
     ngOnInit() { 
         this.httpclient.get('assets/workExperiences.json').subscribe((data:any) => {
             this.datajason = data?.workExperiences?.webDeveloper;
-            this.academicEducation = data?.workExperiences?.webDeveloper.academicEducation;
-            this.experiences = data?.workExperiences?.webDeveloper?.experiences;
-            this.skills = data?.workExperiences?.webDeveloper?.skills;
+            this.academicEducation = this.datajason.academicEducation;
+            this.experiences = this.datajason.experiences;
+            this.skills = this.datajason.skills;
+            this.projects = this.datajason.projects;
         })
     }
 }
