@@ -20,7 +20,7 @@
     <mat-tab-group class="mat-primary" mat-align-tabs="center" aria-label="accent">
       <!-- Information about education -->
         <mat-tab label="Education">
-          <div class="row">
+          <div class="row educationBox">
             <div class="col-md-4" *ngFor="let education of academicEducation;">
               <mat-card class="institutionCard">
                 <mat-card-header>
@@ -49,57 +49,61 @@
         </mat-tab>
         <!-- My experiences -->
         <mat-tab label="Experiences">
-          <div class="row" *ngFor="let experience of experiences;">
-            <div class="col-sm-1" class="divDatails">
-              <div class="square"></div>              
+          <div class="row experiencesBox">
+            <div class="row" *ngFor="let experience of experiences;">
+              <div class="col-sm-1" class="divDatails">
+                <div class="square"></div>              
+              </div>
+              <div class="col-sm-1 experienceDescription">
+                <a href="{{experience.institutionLink}}">
+                  <img class="experienceLogo" src="{{experience.logo}}" alt="logo">
+                </a>
+              </div>
+              <div class="col-md-6 experienceDescription">
+                <h6>{{experience.responsibility}} at {{experience.company}}</h6>
+                <p class="duration">Started in {{experience.start}} - Finished in {{experience.end}}</p>
+                <ul *ngFor="let task of experience.tasks">                
+                  <li>{{task}}</li>
+                </ul>
+              </div>              
             </div>
-            <div class="col-sm-1 experienceDescription">
-              <a href="{{experience.institutionLink}}">
-                <img class="experienceLogo" src="{{experience.logo}}" alt="logo">
-              </a>
-            </div>
-            <div class="col-md-6 experienceDescription">
-              <h6>{{experience.responsibility}} at {{experience.company}}</h6>
-              <p class="duration">Started in {{experience.start}} - Finished in {{experience.end}}</p>
-              <ul *ngFor="let task of experience.tasks">                
-                <li>{{task}}</li>
-              </ul>
-            </div>              
           </div>
         </mat-tab>
         <!-- My Skills -->
         <mat-tab label="Skills">
-          <div class="row skills">
-            <div class="row">
-              <h2 class="text-center">Languages</h2>
-            </div>
-            <div class="row" *ngFor="let language of skills[0].languages">
-              <div class="col-md-2">
-                <h5> {{language.language}} </h5>
+          <div class="row skillsBox">
+            <div class="row skills">
+              <div class="row">
+                <h2 class="text-center">Languages</h2>
               </div>
-              <div class="col-md-2">
-                <p>{{language.status}}</p>
-              </div>
-              <div class="col-md-8">
-                <div class="progress" style="height: 20px;">
-                  <div class="progress-bar skillProgress" role="progressbar" style="width: {{language.percentage}}%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+              <div class="row" *ngFor="let language of skills.languages">
+                <div class="col-md-2">
+                  <h5> {{language.language}} </h5>
+                </div>
+                <div class="col-md-2">
+                  <p>{{language.status}}</p>
+                </div>
+                <div class="col-md-8">
+                  <div class="progress" style="height: 20px;">
+                    <div class="progress-bar skillProgress" role="progressbar" style="width: {{language.percentage}}%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
                 </div>
               </div>
-            </div>
-          </div> 
-          <div class="row">
-            <div class="row skills">
-              <h2>Technical Skills</h2>
-            </div>
-            <div class="col-md-3 skillsBox" *ngFor="let tecnhicalSkill of skills[0].technicalSkills">
-              <h6>{{tecnhicalSkill}}</h6>
+            </div> 
+            <div class="row">
+              <div class="row skills">
+                <h2 class="text-center">Skills</h2>
+              </div>
+              <div class="col-md-3 skills" *ngFor="let tecnhicalSkill of skills.technicalSkills">
+                <h6>{{tecnhicalSkill}}</h6>
+              </div>
             </div>
           </div>
         </mat-tab>
         <!-- My publications -->
         <mat-tab label="Publications">
-          <div class="row">
-            <div class="col-md-4" *ngFor="let publication of datajason.publications;">
+          <div class="row publicationBox">
+            <div class="col-md-4" *ngFor="let publication of publications;">
               <mat-card class="publicationCard">
                 <mat-card-header>
                   <div class="publicationTitle">
@@ -120,7 +124,50 @@
           </div>
         </mat-tab>
         <!-- contacts -->
-        <mat-tab label="Contact Me"></mat-tab>
+        <mat-tab label="Contact Me">
+          <div class="row">
+            <div class="col-md-4 text-center">
+              <h2>Permanent Adress</h2>
+              <h5>{{contacts.personalContacts.adress}}</h5>            
+            </div>
+            <div class="col-md-4">
+              <div class="row text-center">
+                <h2>Contacts</h2>
+              </div>
+              <div class="row text-justify">
+                <div class="col-sm-1">
+                  <mat-icon>contact_mail</mat-icon>
+                </div>
+                <div class="col-sm-1">
+                  <a href="mailto:{{contacts.personalContacts.biologistMail}}">{{contacts.personalContacts.biologistMail}}</a>
+                </div>
+              </div>
+              <div class="row text-justify">
+                <div class="col-sm-1">
+                  <mat-icon>contact_phone</mat-icon>
+                </div>
+                <div class="col-sm-1">
+                  <p>{{contacts.personalContacts.phone}}</p>
+                </div>
+              </div>               
+            </div>
+            <div class="col-md-4">
+              <div class="row" *ngFor="let contact of contacts.socialMidia">
+                <div class="row">
+                  <div class="col-sm-1">
+                    <a href="{{contact.link}}">
+                      <img class="mediaLogo" src="{{contact.logo}}" alt="Media logo">
+                    </a>
+                  </div>
+                  <div class="col-md">
+                    {{contact.name}}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </mat-tab>
     </mat-tab-group>     
   </div>
 </div>
