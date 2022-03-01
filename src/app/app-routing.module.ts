@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { BiologistComponent } from './pages/biologist/biologist.component';
 import { WebDeveloperComponent } from './pages/webDeveloper/web-developer.component';
+import { ContactComponent } from './pages/contact/contact.component';
 
 const routes: Routes = [
   {
@@ -13,8 +14,12 @@ const routes: Routes = [
     component: WebDeveloperComponent
   },
   {
-    path: '',
+    path: "",
     component: WebDeveloperComponent
+  },
+  {
+    path: "contact",
+    component: ContactComponent
   }
 ];
 
