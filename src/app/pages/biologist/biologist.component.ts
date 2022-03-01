@@ -19,10 +19,10 @@ export class BiologistComponent implements OnInit {
     ngOnInit() { 
         this.httpclient.get('assets/workExperiences.json').subscribe((data:any) => {
             this.datajason = data?.workExperiences?.biologist;
-            this.academicEducation = data?.workExperiences?.biologist?.academicEducation;
-            this.publications = data?.workExperiences?.biologist?.publications;
-            this.experiences = data?.workExperiences?.biologist?.experiences;
-            this.skills = data?.workExperiences?.biologist?.skills;
+            this.academicEducation = this.datajason.academicEducation;
+            this.publications = this.datajason.publications;
+            this.experiences = this.datajason.experiences;
+            this.skills = this.datajason.skills;
             this.contacts = data?.workExperiences?.contacts;
         })
     }
