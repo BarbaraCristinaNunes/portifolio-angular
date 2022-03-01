@@ -61,7 +61,7 @@
 /* Card style. It is applyed to cards from education*/
 .institutionCard{
     width: 350px;
-    height: 525px;
+    height: 495px;
     margin: 50px;
     border: solid #ffccbc 1px;
     box-shadow: 5px 5px 2px #cb9b8c;
@@ -69,7 +69,7 @@
 
 .title{
     text-align: center;
-    height: 100px;
+    height: 70px;
 }
 
 .logoImage{
@@ -135,18 +135,20 @@
 /* end of experience part style*/
 
 /* Style of skills part */
+.skillsTitle{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+}
 .skills{
     text-align: center;
-    padding-top: 30px;
-}
-.skillsBox{
     padding-top: 65px;
 }
 .logoSkills{
     width: auto;
     height: 100px;
 }
-.skillProgress{
+.languageProgress{
     background-image: linear-gradient(to right, #ffffee, #ffccbc, #cb9b8c);
     border: solid #ffccbc 2px;
 }
@@ -160,4 +162,51 @@
 a{
     color: #cb9b8c;
     text-decoration: none;
+}
+
+/* style of project part */
+.project{
+    margin-left: 10px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-top: #cb9b8c solid 2px;
+    border-bottom: #cb9b8c solid 2px;
+    border-radius: 2%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 1270px;
+}
+
+.projectImageBox h2{
+    color: #c75b39;
+    text-align: center;
+    margin-top: 20%;
+}
+
+.projectImage{
+    width: 420px;
+    height: auto;
+}
+
+.projectImage:hover{
+    border: dashed #cb9b8c 5px;
+    width: 415px;
+    height: auto;
+}
+
+.projectDetails{
+    padding-left: 50px;
+    text-align: justify;
+}
+
+.projectDetails h5{
+    color: #c75b39;
+    text-align: center;
+}
+/* End of project style */
+
+.skillsBox, .educationBox, .experiencesBox, .projectBox {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 1300px;
 }
