@@ -1,14 +1,19 @@
 <div id="top-container">
   <div id="navbar">
     <mat-toolbar>
-      <div class="col-md-6">
+      <div class="col-md-5">
         <button id="biologist" mat-raised-button routerLinkActive="router-link-active" (click)="changeInformation('biologist', '/Biologist')">Biologist</button>
       </div>
       <div class="col-md-6">
         <button id="web-developer" mat-raised-button routerLinkActive="router-link-active" (click)="changeInformation('developer', '/Web-Developer')">
           Web Developer
         </button>
-      </div>   
+      </div>
+      <div class="col-md-1">
+        <button id="contact" mat-raised-button routerLinkActive="router-link-active" (click)="changeInformation('contact', '/contact')">
+          Contact Me
+        </button>
+      </div>    
     </mat-toolbar>
   </div>  
   <div>
@@ -17,42 +22,3 @@
     </router-outlet>
   </div>
 <div>
-  
-<!-- <div class="container">
-  <div class="row">
-      <div class="col-2">
-          <img src="../assets/img/profile/eu.png" alt="Barbara Nunes" id="profile-img">
-      </div>
-      <div class="col" id="description">
-        <div id="person-information" style="border: solid blueviolet;">
-          <h1 class="text-center" id="name">Bárbara Nunes</h1>
-          <h4 class="text-center" id="title">{{information[activeProfile]?.myTitle}}</h4>
-          <p id="me">
-            {{information[activeProfile]?.aboutMe}}
-          </p>
-        </div>        
-        <div id="read-more">
-          <button id="biologist" mat-raised-button color="primary" routerLinkActive="router-link-active" (click)="changeInformation('biologist', '/Biologist')">Biologist</button>
-          <button id="web-developer" mat-raised-button color="primary" routerLinkActive="router-link-active" (click)="changeInformation('developer', '/Web-Developer')">
-            Web Developer
-          </button>
-        </div>
-
-      </div>
-  </div>
-  <div class="row"> -->
-  <!-- <div>
-    <div>
-      <button id="biologist" mat-raised-button color="primary" routerLinkActive="router-link-active" (click)="changeInformation('biologist', '/Biologist')">Biologist</button>
-      <button id="web-developer" mat-raised-button color="primary" routerLinkActive="router-link-active" (click)="changeInformation('developer', '/Web-Developer')">
-        Web Developer
-      </button>
-      <p>ola</p>
-    </div>
-    <div>
-    <router-outlet>
-      
-    </router-outlet>
-  </div>
-</div> -->
-
