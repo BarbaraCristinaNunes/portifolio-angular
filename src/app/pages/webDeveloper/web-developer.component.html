@@ -19,7 +19,7 @@
     <div class="row" id="information">
         <mat-tab-group animationDuration="0ms" mat-align-tabs="center">
             <mat-tab label="Education" *ngFor="let education of academicEducation;">
-                <div class="row">
+                <div class="row educationBox">
                   <div class="col-md-4" *ngFor="let education of datajason.academicEducation;">
                     <mat-card class="institutionCard">
                       <mat-card-header>
@@ -47,59 +47,86 @@
                 </div>
             </mat-tab>
             <mat-tab label="Experiences">
-              <div id="experienceMessage" *ngIf="experiences == 0">
-                <h4>Looking for the first job as Full Stack Developer</h4>
-                <mat-icon id="searchIcon">search</mat-icon>
-              </div>
-              <div class="row" *ngFor="let experience of experiences;">
-                <div class="col-sm-1" class="divDatails">
-                  <div class="square"></div>              
+              <div class="row experiencesBox">
+                <div id="experienceMessage" *ngIf="experiences == 0">
+                  <h4>Looking for the first job as Full Stack Developer</h4>
+                  <mat-icon id="searchIcon">search</mat-icon>
                 </div>
-                <div class="col-sm-1 experienceDescription">
-                  <a href="{{experience.institutionLink}}">
-                    <img class="experienceLogo" src="{{experience.logo}}" alt="logo">
-                  </a>
+                <div class="row" *ngFor="let experience of experiences;">
+                  <div class="col-sm-1" class="divDatails">
+                    <div class="square"></div>              
+                  </div>
+                  <div class="col-sm-1 experienceDescription">
+                    <a href="{{experience.institutionLink}}">
+                      <img class="experienceLogo" src="{{experience.logo}}" alt="logo">
+                    </a>
+                  </div>
+                  <div class="col-md-6 experienceDescription">
+                    <h6>{{experience.responsibility}} at {{experience.company}}</h6>
+                    <p class="duration">Started in {{experience.start}} - Finished in {{experience.end}}</p>
+                    <ul *ngFor="let task of experience.tasks">                
+                      <li>{{task}}</li>
+                    </ul>
+                  </div>              
                 </div>
-                <div class="col-md-6 experienceDescription">
-                  <h6>{{experience.responsibility}} at {{experience.company}}</h6>
-                  <p class="duration">Started in {{experience.start}} - Finished in {{experience.end}}</p>
-                  <ul *ngFor="let task of experience.tasks">                
-                    <li>{{task}}</li>
-                  </ul>
-                </div>              
               </div>
             </mat-tab>
             <mat-tab label="Skills">
-              <div class="row">
-                <div class="row skills">
-                  <h2>Technical Skills</h2>
-                </div>
-                <div class="col-md-3 skillsBox" *ngFor="let tecnhicalSkill of skills[0].technicalSkills">
-                  <h6>{{tecnhicalSkill.skill}}</h6>
-                  <img class="logoSkills" src="{{tecnhicalSkill.imgage}}" alt="{{tecnhicalSkill.skill}} logo">
-                </div>
-              </div>
-              <div class="row">
-                <div class="row skills">
-                  <h2>Languages</h2>
-                </div>
-                <div class="row" *ngFor="let language of skills[0].languages">
-                  <div class="col-md-2">
-                  <h5> {{language.language}} </h5>
+              <div class="row skillsBox">
+                <div class="row">
+                  <div class="row skillsTitle">
+                    <h2>Technical Skills</h2>
                   </div>
-                  <div class="col-md-2">
-                  <p>{{language.status}}</p>
-                  </div>
-                  <div class="col-md-8">
-                  <div class="progress" style="height: 20px;">
-                    <div class="progress-bar skillProgress" role="progressbar" style="width: {{language.percentage}}%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
-                  </div>
+                  <div class="col-md-3 skills" *ngFor="let tecnhicalSkill of skills.technicalSkills">
+                    <h6>{{tecnhicalSkill.skill}}</h6>
+                    <img class="logoSkills" src="{{tecnhicalSkill.imgage}}" alt="{{tecnhicalSkill.skill}} logo">
                   </div>
                 </div>
-              </div>                
+                <div class="row">
+                  <div class="row skillsTitle">
+                    <h2>Languages</h2>
+                  </div>
+                  <div class="row text-justify" *ngFor="let language of skills.languages">
+                    <div class="col-md-2">
+                    <h5> {{language.language}} </h5>
+                    </div>
+                    <div class="col-md-2">
+                    <p>{{language.status}}</p>
+                    </div>
+                    <div class="col-md-8">
+                    <div class="progress" style="height: 20px;">
+                      <div class="progress-bar languageProgress" role="progressbar" style="width: {{language.percentage}}%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    </div>
+                  </div>
+                </div> 
+              </div>               
             </mat-tab>
-            <mat-tab label="Projects"></mat-tab>
-            <mat-tab label="Contact Me"></mat-tab>
+            <mat-tab label="Projects">
+              <div class="row projectBox">
+                <div class="row project" *ngFor="let project of projects">
+                  <div class="col-md-4 projectImageBox">
+                    <a href="{{project.link}}">
+                      <img *ngIf="project.image" src="{{project.image}}" alt="{{project.title}}" class="projectImage">
+                      <img *ngIf="!project.image" src="../assets/img/projects/no-image.png" alt="No Image" class="projectImage"> 
+                    </a>                 
+                  </div>
+                  <div class="col-md-8 projectDetails">
+                    <a href="{{project.repositoryLink}}">
+                      <h5>{{project.title}}</h5>
+                    </a>
+                    <p>Project's objective: {{project.objective}}</p>
+                    <p class="duration">Duration: {{project.start}} - {{project.end}}</p>
+                    <p>Project's :{{project.type}}</p>
+                    <p *ngIf="project.role">My position in the project: {{project.role}}</p>
+                    <p>Technologies used in the project: </p>
+                    <ul *ngFor="let technology of project.technology">
+                      <li>{{technology}}</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>              
+            </mat-tab>
           </mat-tab-group>
     </div>
     
