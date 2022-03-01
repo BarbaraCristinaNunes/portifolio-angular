@@ -57,41 +57,39 @@
                         "institutionLink": "https://ufmg.br/"
                     }
                 ],
-                "skills":[
-                    {
-                        "languages":[
-                            {
-                                "language": "Portugues", 
-                                "status": "Native",
-                                "percentage": 100
-                            },
-                            {
-                                "language": "English",
-                                "status": "Intermediate level",
-                                "percentage": 60                                    
-                            },
-                            {
-                                "language": "Dutch",
-                                "status": "Basic level",
-                                "percentage": 20
-                            }
-                        ],
-                        "technicalSkills":[
-                            "People Management",
-                            "Project Management",
-                            "Academic Research",
-                            "Report Writing",
-                            "Scientific Writing",
-                            "Ecology",
-                            "Environmental Consulting",
-                            "Plant Ecology",
-                            "Plant Identification",
-                            "Plant Insect Interaction",
-                            "Statistic",
-                            "RAPELD Method"
-                        ]                  
-                    }
-                ],
+                "skills":{
+                    "languages":[
+                        {
+                            "language": "Portugues", 
+                            "status": "Native",
+                            "percentage": 100
+                        },
+                        {
+                            "language": "English",
+                            "status": "Intermediate level",
+                            "percentage": 60                                    
+                        },
+                        {
+                            "language": "Dutch",
+                            "status": "Basic level",
+                            "percentage": 20
+                        }
+                    ],
+                    "technicalSkills":[
+                        "People Management",
+                        "Project Management",
+                        "Academic Research",
+                        "Report Writing",
+                        "Scientific Writing",
+                        "Ecology",
+                        "Environmental Consulting",
+                        "Plant Ecology",
+                        "Plant Identification",
+                        "Plant Insect Interaction",
+                        "Statistic",
+                        "RAPELD Method"
+                    ]                  
+                },
                 "academicEducation":[                        
                     {
                         "studyArea": "Ecology, Conservation and Wildlife Management",
@@ -211,79 +209,77 @@
                     "img": "../assets/img/profile/biolgist.jpg"
                 },
                 "experiences":[],
-                "skills":[
-                    {
-                        "languages":[
-                            {
-                                "language": "Portugues", 
-                                "status": "Native",
-                                "percentage": 100
-                            },
-                            {
-                                "language": "English",
-                                "status": "Intermediate level",
-                                "percentage": 60                                    
-                            },
-                            {
-                                "language": "Dutch",
-                                "status": "Basic level",
-                                "percentage": 20
-                            }
-                        ],
-                        "technicalSkills":[
-                            {
-                                "skill": "HTML",
-                                "status": "",
-                                "imgage": "../assets/img/skills/html.png"
-                            },
-                            {
-                                "skill": "JavaScript",
-                                "status": "",
-                                "imgage": "../assets/img/skills/javascript.png"                                    
-                            },
-                            {
-                                "skill": "CSS",
-                                "status": "",
-                                "imgage": "../assets/img/skills/css.png"                                
-                            },
-                            {
-                                "skill": "PHP",
-                                "status": "",
-                                "imgage": "../assets/img/skills/php.png"
-                            },
-                            {
-                                "skill": "Symfony",
-                                "status": "",
-                                "imgage": "../assets/img/skills/symfony.png"
-                            },
-                            {
-                                "skill": "Angular",
-                                "status": "",
-                                "imgage": "../assets/img/skills/angular.png"
-                            },
-                            {
-                                "skill": "Bootstrap",
-                                "status": "",
-                                "imgage": "../assets/img/skills/bootstrap.png"
-                            },
-                            {
-                                "skill": "Material Desing",
-                                "status": "",
-                                "imgage": "../assets/img/skills/material-desing.png"
-                            },
-                            {
-                                "skill": "MySQL",
-                                "status": "",
-                                "imgage": "../assets/img/skills/mysql.png"
-                            },
-                            {
-                                "skill": "Git",
-                                "status": "",
-                                "imgage": "../assets/img/skills/git.png"
-                            }
-                        ]                  
-                    }
-                ],
+                "skills":{
+                    "languages":[
+                        {
+                            "language": "Portugues", 
+                            "status": "Native",
+                            "percentage": 100
+                        },
+                        {
+                            "language": "English",
+                            "status": "Intermediate level",
+                            "percentage": 60                                    
+                        },
+                        {
+                            "language": "Dutch",
+                            "status": "Basic level",
+                            "percentage": 20
+                        }
+                    ],
+                    "technicalSkills":[
+                        {
+                            "skill": "HTML",
+                            "status": "",
+                            "imgage": "../assets/img/skills/html.png"
+                        },
+                        {
+                            "skill": "JavaScript",
+                            "status": "",
+                            "imgage": "../assets/img/skills/javascript.png"                                    
+                        },
+                        {
+                            "skill": "CSS",
+                            "status": "",
+                            "imgage": "../assets/img/skills/css.png"                                
+                        },
+                        {
+                            "skill": "PHP",
+                            "status": "",
+                            "imgage": "../assets/img/skills/php.png"
+                        },
+                        {
+                            "skill": "Symfony",
+                            "status": "",
+                            "imgage": "../assets/img/skills/symfony.png"
+                        },
+                        {
+                            "skill": "Angular",
+                            "status": "",
+                            "imgage": "../assets/img/skills/angular.png"
+                        },
+                        {
+                            "skill": "Bootstrap",
+                            "status": "",
+                            "imgage": "../assets/img/skills/bootstrap.png"
+                        },
+                        {
+                            "skill": "Material Desing",
+                            "status": "",
+                            "imgage": "../assets/img/skills/material-desing.png"
+                        },
+                        {
+                            "skill": "MySQL",
+                            "status": "",
+                            "imgage": "../assets/img/skills/mysql.png"
+                        },
+                        {
+                            "skill": "Git",
+                            "status": "",
+                            "imgage": "../assets/img/skills/git.png"
+                        }
+                    ]                  
+                },
                 "academicEducation":[                        
                     {
                         "studyArea": "Web Junior Developer",
@@ -301,18 +297,112 @@
                 "publications":[],
                 "projects":[
                     {
-                        "title": "",
-                        "objective": "",
-                        "start": "",
-                        "end": "",
-                        "link": ""
+                        "title": "Frog mini game",
+                        "objective": "Create a parallax effect",
+                        "start": "17/Nov/2021",
+                        "end": "In progress",
+                        "repositoryLink": "https://github.com/BarbaraCristinaNunes/wordpress-intro",
+                        "link": "https://barbaracristinanunes.github.io/challenge-parallax/",
+                        "type": "Solo challange",
+                        "role": "",
+                        "technology": ["JavaScript", "CSS", "HTML"],
+                        "image": "../assets/img/projects/frog-game.gif"
                     },
                     {
-                        "title": "",
-                        "objective": "",
-                        "start": "",
-                        "end": "",
-                        "link": ""
+                        "title": "Final Project",
+                        "objective": "My proposal to resolve laboratories' managed data problem and to offer better organization, security and quality of biological data is to build an application where the theacher in charge of the laboratory can create an account as administrator and store, read, delete and update these data with a pre-established pattern.",
+                        "start": "14-Jan-2022",
+                        "end": "In progress",
+                        "repositoryLink": "https://github.com/BarbaraCristinaNunes/final-project",
+                        "link": "https://github.com/BarbaraCristinaNunes/final-project",
+                        "type": "Solo challenge",
+                        "role": "",
+                        "technology": ["Symfony", "Twig", "TypeScript", "Bootstrap"],
+                        "image": ""
+                    },
+                    {
+                        "title": "Portifolio",
+                        "objective": "Create my portfolio",
+                        "start": "25-Fev-2022",
+                        "end": "In progress",
+                        "repositoryLink": "https://github.com/BarbaraCristinaNunes/portifolio2",
+                        "link": "https://github.com/BarbaraCristinaNunes/portifolio2",
+                        "type": "Solo challenge",
+                        "role": "",
+                        "technology": ["Angular", "HTML", "CSS", "TypeScript", "Bootstrap", "Angular Material"],
+                        "image": ""
+                    },
+                    {
+                        "title": "Scrum Project",
+                        "objective": "Build a webshop and work according to SCRUM principles",
+                        "start": "20/Dez/2021",
+                        "end": "07/Jan/2022",
+                        "repositoryLink": "https://github.com/BarbaraCristinaNunes/scrum-project",
+                        "link": "https://gbay-becode.000webhostapp.com/",
+                        "type": "Group challange",
+                        "role": "Backend",
+                        "technology": ["PHP", "CSS", "Hack", "Bootstrap"],
+                        "image": "../assets/img/projects/scrum-project.png"
+                    },
+                    {
+                        "title": "PHP Crud",
+                        "objective": "Work with MVC acteture",
+                        "start": "06/Dez/2021",
+                        "end": "09/Dez/2022",
+                        "repositoryLink": "https://github.com/ReinoutDeBleser/php-crud",
+                        "link": "https://github.com/ReinoutDeBleser/php-crud",
+                        "type": "Group challange",
+                        "role": "Backend",
+                        "technology": ["PHP", "Hack", "Bootstrap"],
+                        "image": "../assets/img/projects/php-crud.png"
+                    },
+                    {
+                        "title": "Granny's treats",
+                        "objective": "Create a page in Wordpress",
+                        "start": "10/Dez/2021",
+                        "end": "10/Dez/2022",
+                        "repositoryLink": "https://github.com/BarbaraCristinaNunes/wordpress-intro",
+                        "link": "https://grannystreats.wordpress.com/",
+                        "type": "Solo challange",
+                        "role": "",
+                        "technology": [],
+                        "image": "../assets/img/projects/wordpress.png"
+                    },
+                    {
+                        "title": "Pokedex-PHP",
+                        "objective": "Create a pokedex and work with API",
+                        "start": "13/Oct/2021",
+                        "end": "21/Oct/2021",
+                        "repositoryLink": "https://github.com/BarbaraCristinaNunes/pokedex-php",
+                        "link": "https://github.com/BarbaraCristinaNunes/pokedex-php",
+                        "type": "Solo challange",
+                        "role": "",
+                        "technology": ["JavaScript", "CSS", "HTML", "Bootstrap"],
+                        "image": "../assets/img/projects/pokedex.png"
+                    },
+                    {
+                        "title": "Pokedex-JavaScript",
+                        "objective": "Create a pokedex and work with API",
+                        "start": "13/Oct/2021",
+                        "end": "21/Oct/2021",
+                        "repositoryLink": "https://github.com/BarbaraCristinaNunes/ajax-pokedex",
+                        "link": "https://barbaracristinanunes.github.io/ajax-pokedex/",
+                        "type": "Solo challange",
+                        "role": "",
+                        "technology": ["PHP", "CSS", "HTML", "Bootstrap"],
+                        "image": "../assets/img/projects/pokedex.png"
+                    },
+                    {
+                        "title": "rock-paper-scissors-lizard-spock",
+                        "objective": "Create a game of rock-paper-scissors",
+                        "start": "13/Oct/2021",
+                        "end": "21/Oct/2021",
+                        "repositoryLink": "https://github.com/BarbaraCristinaNunes/rock-paper-scissors-lizard-spock",
+                        "link": "https://barbaracristinanunes.github.io/rock-paper-scissors-lizard-spock/",
+                        "type": "Solo challange",
+                        "role": "",
+                        "technology": ["PHP", "CSS", "HTML", "Bootstrap"],
+                        "image": "../assets/img/projects/rock-paper-game.png"
                     }
                 ]
             },
