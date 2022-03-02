@@ -1,7 +1,7 @@
 <div class="container">
 
     <div class="row">
-        <div class="col-md-2">
+        <div class="col-md-2 profile-img">
             <img src="../assets/img/profile/eu.png" alt="Barbara Nunes" id="profile-img">
         </div>
         <div class="col-md" id="description">
@@ -20,7 +20,7 @@
         <mat-tab-group animationDuration="0ms" mat-align-tabs="center">
             <mat-tab label="Education" *ngFor="let education of academicEducation;">
                 <div class="row educationBox">
-                  <div class="col-md-4" *ngFor="let education of datajason.academicEducation;">
+                  <div class="col-md-4" *ngFor="let education of academicEducation;">
                     <mat-card class="institutionCard">
                       <mat-card-header>
                         <div class="title">
@@ -86,7 +86,7 @@
                   <div class="row skillsTitle">
                     <h2>Languages</h2>
                   </div>
-                  <div class="row text-justify" *ngFor="let language of skills.languages">
+                  <div class="row skillRow" *ngFor="let language of skills.languages">
                     <div class="col-md-2">
                     <h5> {{language.language}} </h5>
                     </div>
@@ -103,29 +103,40 @@
               </div>               
             </mat-tab>
             <mat-tab label="Projects">
+
               <div class="row projectBox">
-                <div class="row project" *ngFor="let project of projects">
-                  <div class="col-md-4 projectImageBox">
-                    <a href="{{project.link}}">
-                      <img *ngIf="project.image" src="{{project.image}}" alt="{{project.title}}" class="projectImage">
-                      <img *ngIf="!project.image" src="../assets/img/projects/no-image.png" alt="No Image" class="projectImage"> 
-                    </a>                 
-                  </div>
-                  <div class="col-md-8 projectDetails">
-                    <a href="{{project.repositoryLink}}">
-                      <h5>{{project.title}}</h5>
-                    </a>
-                    <p>Project's objective: {{project.objective}}</p>
-                    <p class="duration">Duration: {{project.start}} - {{project.end}}</p>
-                    <p>Project's :{{project.type}}</p>
-                    <p *ngIf="project.role">My position in the project: {{project.role}}</p>
-                    <p>Technologies used in the project: </p>
-                    <ul *ngFor="let technology of project.technology">
-                      <li>{{technology}}</li>
-                    </ul>
-                  </div>
+                <div class="col-md-4" *ngFor="let project of projects;">
+                  <mat-card class="projectCard">
+                    <mat-card-header>
+                      <div mat-card-avatar>
+                        <a *ngIf="project.repositoryLink" href="{{project.repositoryLink}}">
+                          <img id="githubLogo" src="../assets/img/contacts-logo/github.png" alt="Git Hub">
+                        </a>
+                      </div>
+                      <div class="title">
+                        <mat-card-title>{{project.title}}</mat-card-title>
+                      </div>
+                    </mat-card-header>
+                    <div class="logoImage">
+                      <a href="{{project.link}}">
+                        <img *ngIf="project.image" src="{{project.image}}" alt="{{project.title}}" class="projectImage">
+                        <img *ngIf="!project.image" src="../assets/img/projects/no-image.png" alt="No Image" class="projectImage"> 
+                      </a>
+                    </div>
+                    <mat-card-content class="projectCartDescription">
+                      <h6></h6>
+                      <p>Project's objective: {{project.objective}}</p>
+                      <p class="duration">Duration: {{project.start}} - {{project.end}}</p>
+                      <p>Project's :{{project.type}}</p>
+                      <p *ngIf="project.role">My position in the project: {{project.role}}</p>
+                      <p>Technologies used in the project: </p>
+                      <ul *ngFor="let technology of project.technology">
+                        <li>{{technology}}</li>
+                      </ul>
+                    </mat-card-content>
+                  </mat-card>
                 </div>
-              </div>              
+              </div>
             </mat-tab>
           </mat-tab-group>
     </div>
