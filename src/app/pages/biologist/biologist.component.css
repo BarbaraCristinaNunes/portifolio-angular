@@ -7,6 +7,18 @@
     padding-top: 30px;
 }
 
+@media screen and (max-width: 1100px) {
+    #description{
+        display: none;
+    }
+    .profile-img{
+        display: none;
+    }
+    #information{
+        padding-top: 250px; 
+    }
+}
+
 /* Personal description style */
 
 #profile-img{
@@ -156,10 +168,11 @@
     padding-top: 30px;
     padding-bottom: 30px;
 }
-.skills{
-    text-align: center;
-    padding-top: 65px;
+
+.skillRow{
+    padding-top: 10px;
 }
+
 .logoSkills{
     width: auto;
     height: 100px;
@@ -193,8 +206,9 @@ button:hover{
     height: auto;
 }
 
-.publicationBox, .skillsBox, .experiencesBox, .educationBox{
+.skillsBox, .educationBox, .experiencesBox, .projectBox {
     padding-top: 30px;
     padding-bottom: 30px;
     width: 1300px;
+    /* min-width: 500px; */
 }
