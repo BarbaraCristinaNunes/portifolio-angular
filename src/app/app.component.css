@@ -65,3 +65,39 @@
         font-size: smaller;
     }
 }
+
+@media screen and (max-width: 780px) {
+    #web-developer{
+        font-size: smaller;
+        width: 200px;
+        padding: 5px;
+    }
+    #biologist{
+        font-size: smaller;
+        width: 200px;
+        padding: 5px;
+    }
+    #contact{
+        font-size: smaller;
+        width: 200px;
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 619px) {
+    #web-developer{
+        font-size: small;
+        width: 120px;
+        padding: 0px;
+    }
+    #biologist{
+        font-size: small;
+        width: 120px;
+        padding: 0px;
+    }
+    #contact{
+        font-size: small;
+        width: 120px;
+        padding: 0px;
+    }
+}
