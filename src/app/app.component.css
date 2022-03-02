@@ -1,12 +1,10 @@
 #top-container{
     height: 180px;
     width: 100%;
-    /* background-color: aqua; */
     position: absolute;
     z-index: 1;
 }
 #navbar{
-    /* overflow: hidden; */
     position: fixed;
     z-index: 3;
     top: 0;
@@ -15,21 +13,15 @@
 .mat-toolbar{
     background-image: linear-gradient(to right, #b3bc6d5d, #cb9b8c79);
 }
-.container{
-    right: 115px;
-    top: 63px;
-    position: absolute;
-    z-index: 2;
-}
 
 #biologist{
-    /* margin: 5px; */
     text-align: center;
-    width: 100%;
+    width: 95%;
     padding: 10px;
     background-color: #b3bc6d;
     color: #ffffce;
     font-size: x-large;
+    margin-left: 3px;
 }
 
 #biologist:focus, #biologist:hover{
@@ -37,9 +29,8 @@
 }
 
 #web-developer{
-    margin: 25px;
     text-align: center;
-    width: 90%;
+    width: 95%;
     padding: 10px;
     background-color: #cb9b8c;
     color: #ffffee;
@@ -51,9 +42,8 @@
 }
 
 #contact{
-    margin-left: -20px;
     text-align: center;
-    width: 110%;
+    width: 95%;
     padding: 10px;
     font-size: large;
     background-color: #af4448;
@@ -62,4 +52,16 @@
 
 #contact:focus, #contact:hover{
     background-color: #ffa4a2;
+}
+
+@media screen and (max-width: 1300px) {
+    #web-developer{
+        font-size: smaller;
+    }
+    #biologist{
+        font-size: smaller;
+    }
+    #contact{
+        font-size: smaller;
+    }
 }
