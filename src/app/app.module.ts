@@ -19,12 +19,13 @@ import { RouterModule } from '@angular/router';
 import {HttpClientModule} from '@angular/common/http';
 import { CommonModule } from '@angular/common';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     BiologistComponent,
     WebDeveloperComponent,
-    ContactComponent
+    ContactComponent,
   ],
   imports: [
     BrowserModule,
