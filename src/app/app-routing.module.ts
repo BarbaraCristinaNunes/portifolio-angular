@@ -6,11 +6,11 @@ import { ContactComponent } from './pages/contact/contact.component';
 
 const routes: Routes = [
   {
-  path:"Biologist",
+  path:"biologist",
   component: BiologistComponent
   },
   {
-    path:"Web-Developer",
+    path:"webDeveloper",
     component: WebDeveloperComponent
   },
   {
