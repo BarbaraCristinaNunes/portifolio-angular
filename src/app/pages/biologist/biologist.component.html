@@ -1,9 +1,10 @@
 <div class="container">
   <!-- description session -->
   <div class="row">
-      <div class="col-md-2">
+      <div class="col-md-2 profile-img">
           <img src="../assets/img/profile/eu.png" alt="Barbara Nunes" id="profile-img">
       </div>
+
       <div class="col-md" id="description">
         <div id="person-information">
           <h1 id="name">Bárbara Nunes</h1>
@@ -13,7 +14,8 @@
           </p>
         </div>        
       </div>
-      <div class="col-md-1"></div>
+
+      <div class="col-md-1 personalDescription"></div>
   </div>
   <!-- begin of the tab -->
   <div class="row" id="information">
@@ -76,7 +78,7 @@
               <div class="row">
                 <h2 class="text-center">Languages</h2>
               </div>
-              <div class="row" *ngFor="let language of skills.languages">
+              <div class="row skillRow" *ngFor="let language of skills.languages">
                 <div class="col-md-2">
                   <h5> {{language.language}} </h5>
                 </div>
@@ -94,7 +96,7 @@
               <div class="row skills">
                 <h2 class="text-center">Skills</h2>
               </div>
-              <div class="col-md-3 skills" *ngFor="let tecnhicalSkill of skills.technicalSkills">
+              <div class="col-md-3 skills text-center" *ngFor="let tecnhicalSkill of skills.technicalSkills">
                 <h6>{{tecnhicalSkill}}</h6>
               </div>
             </div>
