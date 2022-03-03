@@ -201,11 +201,6 @@ button:hover{
     font-size: smaller;
 }
 
-.mediaLogo{
-    width: 25px;
-    height: auto;
-}
-
 .skillsBox, .educationBox, .experiencesBox, .projectBox {
     padding-top: 30px;
     padding-bottom: 30px;
