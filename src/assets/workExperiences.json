@@ -409,23 +409,18 @@
         "contacts":{
             "socialMidia":[
                 {
-                    "name": "babi.cnues",
-                    "logo": "../assets/img/contacts-logo/instagram.png",
-                    "link": "https://www.instagram.com/babi.cnunes/"
-                },
-                {
-                    "name": "Barbara Cristina Nunes",
+                    "name": "Linkedin",
                     "logo": "../assets/img/contacts-logo/linkedin.png",
                     "link": "https://www.linkedin.com/in/barbara-cristina-nunes-40b57063/"
                 },
                 {
-                    "name": "Barbara Cristina Nunes",
+                    "name": "Lattes",
                     "logo": "../assets/img/contacts-logo/lattes.png",
                     "link": "http://lattes.cnpq.br/2717979550750345"
                 },
                 
                 {
-                    "name": "Barbara Cristina Nunes",
+                    "name": "GitHub",
                     "logo": "../assets/img/contacts-logo/github.png",
                     "link": "https://github.com/BarbaraCristinaNunes"
                     
@@ -434,7 +429,7 @@
             "personalContacts":{
                 
                 "biologistMail": "barbara.n.bio@gmail.com",
-                "webDeveloperMain": "nunes.barbaracc@gmail.com",
+                "webDeveloperMain": "nunes.barbarac@gmail.com",
                 "phone": "+32456132679",
                 "adress": "Dambruggestraat 343, Antwerp, 2060"                
             }
