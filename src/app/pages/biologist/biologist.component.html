@@ -125,51 +125,6 @@
             </div>
           </div>
         </mat-tab>
-        <!-- contacts -->
-        <mat-tab label="Contact Me">
-          <div class="row">
-            <div class="col-md-4 text-center">
-              <h2>Permanent Adress</h2>
-              <h5>{{contacts.personalContacts.adress}}</h5>            
-            </div>
-            <div class="col-md-4">
-              <div class="row text-center">
-                <h2>Contacts</h2>
-              </div>
-              <div class="row text-justify">
-                <div class="col-sm-1">
-                  <mat-icon>contact_mail</mat-icon>
-                </div>
-                <div class="col-sm-1">
-                  <a href="mailto:{{contacts.personalContacts.biologistMail}}">{{contacts.personalContacts.biologistMail}}</a>
-                </div>
-              </div>
-              <div class="row text-justify">
-                <div class="col-sm-1">
-                  <mat-icon>contact_phone</mat-icon>
-                </div>
-                <div class="col-sm-1">
-                  <p>{{contacts.personalContacts.phone}}</p>
-                </div>
-              </div>               
-            </div>
-            <div class="col-md-4">
-              <div class="row" *ngFor="let contact of contacts.socialMidia">
-                <div class="row">
-                  <div class="col-sm-1">
-                    <a href="{{contact.link}}">
-                      <img class="mediaLogo" src="{{contact.logo}}" alt="Media logo">
-                    </a>
-                  </div>
-                  <div class="col-md">
-                    {{contact.name}}
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          
-        </mat-tab>
     </mat-tab-group>     
   </div>
 </div>
