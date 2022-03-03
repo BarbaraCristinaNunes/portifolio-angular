@@ -1,0 +1,26 @@
+.contactInformation{
+    margin-top: 100px;
+}
+
+.mediaLogo{
+    width: 25px;
+    height: auto;
+}
+
+.personalContact{
+    padding-bottom: 20px;
+    margin-left: -70px;
+}
+
+.socialMediaName{
+    margin-left: -70px;
+}
+
+.socialMedia{
+    padding-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #af4448;
+}
