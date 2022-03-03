@@ -1,1 +1,32 @@
-<p>contact works!</p>
+<div class="container">
+    <div class="row contactInformation">
+        <div class="row text-center">
+            <h1>Contacts</h1>
+        </div>
+        <div class="row">
+            <div class="col-sm-1">
+                <a href="mailto:{{personalContact}}">
+                    <mat-icon>mail</mat-icon>
+                </a> 
+            </div>
+            <div class="col-md-10 personalContact">
+                <a href="mailto:{{personalContact}}">
+                    <h5>{{personalContact}}</h5>
+                </a> 
+            </div>                       
+        </div>
+        <div class="row socialMedia" *ngFor="let socialMedia of socialMedias">
+            <div class="col-sm-1">
+                <a href="{{socialMedia.link}}">
+                    <img class="mediaLogo" src="{{socialMedia.logo}}" alt="Media Logo">
+                </a>                
+            </div>
+            <div class="col-md-10 socialMediaName">
+                <a href="{{socialMedia.link}}">
+                    <h5>{{socialMedia.name}}</h5>
+                </a> 
+            </div>
+             
+        </div>
+    </div>
+</div>
