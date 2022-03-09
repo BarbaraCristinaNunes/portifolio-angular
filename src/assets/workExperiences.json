@@ -4,7 +4,7 @@
         "biologist":
             {
                 "profileImg":{            
-                    "img": "assets/img/profile/biolgist.jpg"
+                    "img": "assets/img/profile/eu.jpg"
                 },
                 "experiences":[
                     {
@@ -206,7 +206,7 @@
         "webDeveloper":
             {
                 "profileImg":{            
-                    "img": "assets/img/profile/biolgist.jpg"
+                    "img": "assets/img/profile/eu.jpg"
                 },
                 "experiences":[],
                 "skills":{
