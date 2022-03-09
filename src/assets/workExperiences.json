@@ -415,7 +415,7 @@
                 },
                 {
                     "name": "Lattes",
-                    "logo": "../assets/img/contacts-logo/lattes.png",
+                    "logo": "assets/img/contacts-logo/lattes.png",
                     "link": "http://lattes.cnpq.br/2717979550750345"
                 },
                 
