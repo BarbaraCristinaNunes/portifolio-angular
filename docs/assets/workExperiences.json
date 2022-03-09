@@ -256,7 +256,7 @@
                         {
                             "skill": "Angular",
                             "status": "",
-                            "imgage": "../assets/img/skills/angular.png"
+                            "imgage": "assets/img/skills/angular.png"
                         },
                         {
                             "skill": "Bootstrap",
