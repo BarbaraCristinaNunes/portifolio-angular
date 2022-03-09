@@ -4,7 +4,7 @@
         "biologist":
             {
                 "profileImg":{            
-                    "img": "../assets/img/profile/biolgist.jpg"
+                    "img": "assets/img/profile/biolgist.jpg"
                 },
                 "experiences":[
                     {
@@ -101,7 +101,7 @@
                         "institutionLink": "https://www.ufmg.br/pos/ecologia/",
                         "degree": "Master",
                         "description": "",
-                        "logo": "../assets/img/educations-logos/ecmvs.png"
+                        "logo": "assets/img/educations-logos/ecmvs.png"
                     },                                
                     {
                         "studyArea": "Conservation Biology",
@@ -113,7 +113,7 @@
                         "institutionLink": "https://www.una.br/",
                         "degree": "Specializtion",
                         "description": "",
-                        "logo": "../assets/img/educations-logos/una.png"
+                        "logo": "assets/img/educations-logos/una.png"
                     },
                     {
                         "studyArea": "Biology",
@@ -125,7 +125,7 @@
                         "institutionLink": "https://www.una.br/",
                         "degree": "Bachelor",
                         "description": "",
-                        "logo": "../assets/img/educations-logos/una.png"
+                        "logo": "assets/img/educations-logos/una.png"
                     }
                 ],
                 "publications":[
@@ -206,7 +206,7 @@
         "webDeveloper":
             {
                 "profileImg":{            
-                    "img": "../assets/img/profile/biolgist.jpg"
+                    "img": "assets/img/profile/biolgist.jpg"
                 },
                 "experiences":[],
                 "skills":{
@@ -231,52 +231,52 @@
                         {
                             "skill": "HTML",
                             "status": "",
-                            "imgage": "../assets/img/skills/html.png"
+                            "imgage": "assets/img/skills/html.png"
                         },
                         {
                             "skill": "JavaScript",
                             "status": "",
-                            "imgage": "../assets/img/skills/javascript.png"                                    
+                            "imgage": "assets/img/skills/javascript.png"                                    
                         },
                         {
                             "skill": "CSS",
                             "status": "",
-                            "imgage": "../assets/img/skills/css.png"                                
+                            "imgage": "assets/img/skills/css.png"                                
                         },
                         {
                             "skill": "PHP",
                             "status": "",
-                            "imgage": "../assets/img/skills/php.png"
+                            "imgage": "assets/img/skills/php.png"
                         },
                         {
                             "skill": "Symfony",
                             "status": "",
-                            "imgage": "../assets/img/skills/symfony.png"
+                            "imgage": "assets/img/skills/symfony.png"
                         },
                         {
                             "skill": "Angular",
                             "status": "",
-                            "imgage": "../assets/img/skills/angular.png"
+                            "imgage": "assets/img/skills/angular.png"
                         },
                         {
                             "skill": "Bootstrap",
                             "status": "",
-                            "imgage": "../assets/img/skills/bootstrap.png"
+                            "imgage": "assets/img/skills/bootstrap.png"
                         },
                         {
                             "skill": "Material Desing",
                             "status": "",
-                            "imgage": "../assets/img/skills/material-desing.png"
+                            "imgage": "assets/img/skills/material-desing.png"
                         },
                         {
                             "skill": "MySQL",
                             "status": "",
-                            "imgage": "../assets/img/skills/mysql.png"
+                            "imgage": "assets/img/skills/mysql.png"
                         },
                         {
                             "skill": "Git",
                             "status": "",
-                            "imgage": "../assets/img/skills/git.png"
+                            "imgage": "assets/img/skills/git.png"
                         }
                     ]                  
                 },
@@ -291,7 +291,7 @@
                         "institutionLink": "https://becode.org/learn/junior-web-developer/",
                         "degree": "",
                         "description": "Full time training with duration of 780 hours. During the training I have developed projects in JavaScript, PHP, Angular and Symfony where I could developed coding skills, consolidate the concepts of OOP and learn about MVC architecture, SOLID concepts and MySQL.",
-                        "logo": "../assets/img/educations-logos/becode.png"
+                        "logo": "assets/img/educations-logos/becode.png"
                     }                              
                 ],
                 "publications":[],
@@ -306,7 +306,7 @@
                         "type": "Solo challange",
                         "role": "",
                         "technology": ["JavaScript", "CSS", "HTML"],
-                        "image": "../assets/img/projects/frog-game.gif"
+                        "image": "assets/img/projects/frog-game.gif"
                     },
                     {
                         "title": "Final Project",
@@ -342,7 +342,7 @@
                         "type": "Group challange",
                         "role": "Backend",
                         "technology": ["PHP", "CSS", "Hack", "Bootstrap"],
-                        "image": "../assets/img/projects/scrum-project.png"
+                        "image": "assets/img/projects/scrum-project.png"
                     },
                     {
                         "title": "PHP Crud",
@@ -354,7 +354,7 @@
                         "type": "Group challange",
                         "role": "Backend",
                         "technology": ["PHP", "Hack", "Bootstrap"],
-                        "image": "../assets/img/projects/php-crud.png"
+                        "image": "assets/img/projects/php-crud.png"
                     },
                     {
                         "title": "Granny's treats",
@@ -366,7 +366,7 @@
                         "type": "Solo challange",
                         "role": "",
                         "technology": [],
-                        "image": "../assets/img/projects/wordpress.png"
+                        "image": "assets/img/projects/wordpress.png"
                     },
                     {
                         "title": "Pokedex-PHP",
@@ -378,7 +378,7 @@
                         "type": "Solo challange",
                         "role": "",
                         "technology": ["JavaScript", "CSS", "HTML", "Bootstrap"],
-                        "image": "../assets/img/projects/pokedex.png"
+                        "image": "assets/img/projects/pokedex.png"
                     },
                     {
                         "title": "Pokedex-JavaScript",
@@ -390,7 +390,7 @@
                         "type": "Solo challange",
                         "role": "",
                         "technology": ["PHP", "CSS", "HTML", "Bootstrap"],
-                        "image": "../assets/img/projects/pokedex.png"
+                        "image": "assets/img/projects/pokedex.png"
                     },
                     {
                         "title": "rock-paper-scissors-lizard-spock",
@@ -402,7 +402,7 @@
                         "type": "Solo challange",
                         "role": "",
                         "technology": ["PHP", "CSS", "HTML", "Bootstrap"],
-                        "image": "../assets/img/projects/rock-paper-game.png"
+                        "image": "assets/img/projects/rock-paper-game.png"
                     }
                 ]
             },
@@ -410,7 +410,7 @@
             "socialMidia":[
                 {
                     "name": "Linkedin",
-                    "logo": "../assets/img/contacts-logo/linkedin.png",
+                    "logo": "assets/img/contacts-logo/linkedin.png",
                     "link": "https://www.linkedin.com/in/barbara-cristina-nunes-40b57063/"
                 },
                 {
@@ -421,7 +421,7 @@
                 
                 {
                     "name": "GitHub",
-                    "logo": "../assets/img/contacts-logo/github.png",
+                    "logo": "assets/img/contacts-logo/github.png",
                     "link": "https://github.com/BarbaraCristinaNunes"
                     
                 }
