@@ -1,4 +1,4 @@
-# Portifolio2
+# Portifolio Angular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2 and it replaces the project from the repository [portifolio](https://github.com/BarbaraCristinaNunes/portfolio).
 
